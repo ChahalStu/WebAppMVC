@@ -1,0 +1,76 @@
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\appsettings.json
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\WebApplication1.exe
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\WebApplication1.deps.json
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\WebApplication1.runtimeconfig.json
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\WebApplication1.dll
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\WebApplication1.pdb
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfo.cs
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApplication1.props
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\WebAppli.7D14BD69.Up2Date
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\WebApplication1.dll
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\refint\WebApplication1.dll
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
+C:\Users\OIBSIP\Medical System\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\Azure.Storage.Blobs.dll
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\Azure.Storage.Common.dll
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\OIBSIP\Medical System\WebApplication1\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\appsettings.Development.json
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\appsettings.json
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\WebApplication1.exe
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\WebApplication1.deps.json
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\WebApplication1.runtimeconfig.json
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\WebApplication1.dll
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\WebApplication1.pdb
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\Azure.Core.dll
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\Azure.Storage.Blobs.dll
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\Azure.Storage.Common.dll
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\System.IO.Hashing.dll
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfoInputs.cache
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfo.cs
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.CoreCompileInputs.cache
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\staticwebassets.development.json
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApplication1.props
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\scopedcss\bundle\WebApplication1.styles.css
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\WebAppli.7D14BD69.Up2Date
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\WebApplication1.dll
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\refint\WebApplication1.dll
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
+D:\Users\chaha\Downloads\Nkosi\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
