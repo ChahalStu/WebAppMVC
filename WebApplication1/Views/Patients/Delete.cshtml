@@ -315,7 +315,42 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="PatientID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <input type="submit" value="Delete" id="btn-delete-patient" class="btn btn-danger" /> |
         <a asp-action="Index">Back to List</a>
     </form>
 </div>
+<script>
+    $(document).ready(function () {
+        $("#btn-delete-patient").on("click", function () {
+            var formData = new FormData();
+            formData.append("id", $("#PatientID").val());
+            $.ajax({
+                type: 'DELETE',
+                url: '@Url.Action("delete", "File")',
+                contentType: false,
+                processData: false,
+                cache: false,
+                data: formData,
+                success: successCallback,
+                error: errorCallback
+            });
+        });
+
+        function errorCallback() {
+            bootbox.alert("Something went wrong please contact admin.");
+        }
+        function successCallback(response) {
+            if (response.responseCode == 0) {
+                resetForm();
+                bootbox.alert(response.responseMessage, function () {
+
+                    //PERFORM REMAINING LOGIC that you need when patient is deleted
+                });
+            }
+            else {
+                bootbox.alert(response.ResponseMessage);
+            }
+        };
+    });
+
+</script>

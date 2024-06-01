@@ -10,7 +10,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" id="editForm">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="PatientID" />
             <div class="form-group">
@@ -264,7 +264,7 @@
                 <span asp-validation-for="OccupationalTherapistContactNo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="button" id="btn-update-patient" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>
@@ -276,4 +276,39 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        $(document).ready(function () {
+            $("#btn-update-patient").on("click", function () {
+                var formData = document.getElementById('editForm');
+                var formData = new FormData(form);
+                $.ajax({
+                    type: 'PUT',
+                    url: '@Url.Action("update", "File")',
+                    contentType: false,
+                    processData: false,
+                    cache: false,
+                    data: formData,
+                    success: successCallback,
+                    error: errorCallback
+                });
+            });
+            function errorCallback() {
+                bootbox.alert("Something went wrong please contact admin.");
+            }
+            function successCallback(response) {
+                if (response.responseCode == 0) {
+                    resetForm();
+                    bootbox.alert(response.responseMessage, function () {
+
+                        //PERFORM REMAINING LOGIC required once the patient is saved
+                    });
+                }
+                else {
+                    bootbox.alert(response.ResponseMessage);
+                }
+            };
+        });
+        
+    </script>
 }
