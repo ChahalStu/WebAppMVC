@@ -12,7 +12,7 @@ namespace WebApplication1.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IConfiguration _configuration;
-        private readonly string _azureBlobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=cdrsrecords;AccountKey=ujdGGDNDpsVEPjlY8Cy+/5N2vDDxhKuQB2SVWjIx0KHtfdU1RCCaJzXM6HSVrcaFYSullfWVJZd2+AStht1vbg==;EndpointSuffix=core.windows.net ";
+        private readonly string _azureBlobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=cdrsrecords;AccountKey=ujdGGDNDpsVEPjlY8Cy+/5N2vDDxhKuQB2SVWjIx0KHtfdU1RCCaJzXM6HSVrcaFYSullfWVJZd2+AStht1vbg==;EndpointSuffix=core.windows.net";
         private readonly string _blobContainerName = "cdrsrecords";
         public ClinicalRecordsController(IConfiguration configuration, ApplicationDbContext context)
         {
@@ -92,7 +92,7 @@ namespace WebApplication1.Controllers
 
         private async Task<BlobClient> UploadFileToBlobStorage(IFormCollection form)
         {
-            var file = form.Files["file"];
+            var file = form.Files["Upload"];
             
             BlobServiceClient blobServiceClient = new BlobServiceClient(_azureBlobStorageConnectionString);
             BlobContainerClient containerClient = blobServiceClient.GetBlobContainerClient(_blobContainerName);
