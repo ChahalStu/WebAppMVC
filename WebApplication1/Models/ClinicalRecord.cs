@@ -1,4 +1,6 @@
-﻿namespace WebApplication1.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace WebApplication1.Models
 {
     public class ClinicalRecord
     {
@@ -25,5 +27,6 @@
         // Relationships
         public Clinic Clinic { get; set; }
         public Patient Patient { get; set; }
+
     }
 }
