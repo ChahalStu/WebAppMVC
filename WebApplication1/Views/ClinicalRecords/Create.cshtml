@@ -99,7 +99,7 @@
             </div>
             <br />
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" id="btn-upload-patient" class="btn btn-primary" />
             </div>
 
  
@@ -115,4 +115,40 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
 }
+<script>
+    document.open(function () {
+        $("#btn-upload-patient").click(function () {
+            debugger;
+            var formData = document.getElementById('editForm');
+            var formData = new FormData(form);
+            $.ajax({
+                type: 'PUT',
+                url: '@Url.Action("upload", "File")',
+                contentType: false,
+                processData: false,
+                cache: false,
+                data: formData,
+                success: successCallback,
+                error: errorCallback
+            });
+        });
+        function errorCallback() {
+            bootbox.alert("Something went wrong please contact admin.");
+        }
+        function successCallback(response) {
+            if (response.responseCode == 0) {
+                resetForm();
+                bootbox.alert(response.responseMessage, function () {
+
+                    //PERFORM REMAINING LOGIC required once the patient is saved
+                });
+            }
+            else {
+                bootbox.alert(response.ResponseMessage);
+            }
+        };
+    });
+
+</script>

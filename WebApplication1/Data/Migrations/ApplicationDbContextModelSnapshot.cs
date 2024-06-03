@@ -257,64 +257,54 @@ namespace WebApplication1.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClinicalRecordID"));
 
                     b.Property<string>("AssessmentFindings")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("ClinicID")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("ClinicalContactCommenced")
+                    b.Property<DateTime?>("ClinicalContactCommenced")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("ClinicalContactTerminated")
+                    b.Property<DateTime?>("ClinicalContactTerminated")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Clinician")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CreatedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("Date")
+                    b.Property<DateTime?>("Date")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Disorder")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FileName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FilePath")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("History")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PatientID")
                         .HasColumnType("int");
 
                     b.Property<string>("Referral")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("RelevantInformation")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TutorEmailAddress")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UpdatedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("UpdatedDate")
+                    b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");
 
                     b.HasKey("ClinicalRecordID");

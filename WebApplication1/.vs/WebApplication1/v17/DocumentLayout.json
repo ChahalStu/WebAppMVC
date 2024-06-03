@@ -3,47 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\views\\patients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\patients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\views\\patients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\patients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4ACD4E-B1FB-4015-9D3E-75CF56C27463}|..\\Nkosi\\WebApplication1\\WebApplication2.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\nkosi\\webapplication1\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\views\\patients\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\patients\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\controllers\\clinicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:controllers\\clinicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\views\\patients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\patients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\controllers\\clinicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:controllers\\clinicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\controllers\\clinicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:controllers\\clinicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB4ACD4E-B1FB-4015-9D3E-75CF56C27463}|..\\Nkosi\\WebApplication1\\WebApplication2.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\nkosi\\webapplication1\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB4ACD4E-B1FB-4015-9D3E-75CF56C27463}|..\\Nkosi\\WebApplication1\\WebApplication2.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\nkosi\\webapplication1\\service\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\controllers\\clinicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:controllers\\clinicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\views\\patients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\patients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\views\\patients\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\patients\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\models\\clinicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:models\\clinicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -62,20 +61,12 @@
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\clinicalrecords\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\views\\clinicalrecords\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\clinicalrecords\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\viewmodels\\fileuploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:viewmodels\\fileuploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\data\\migrations\\20240505191907_filepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:data\\migrations\\20240505191907_filepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -85,75 +76,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Patients\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Patients\\Delete.cshtml",
-              "ViewState": "AQIAAD0BAAAAAAAAAAAYwFkBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-01T17:06:56.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Patients\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Details.cshtml",
-              "RelativeToolTip": "Views\\Patients\\Details.cshtml",
-              "ViewState": "AQIAAO8AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-01T16:47:11.422Z",
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\Nkosi\\WebApplication1\\Service\\FileService.cs",
+              "RelativeDocumentMoniker": "..\\Nkosi\\WebApplication1\\Service\\FileService.cs",
+              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\Nkosi\\WebApplication1\\Service\\FileService.cs",
+              "RelativeToolTip": "..\\Nkosi\\WebApplication1\\Service\\FileService.cs",
+              "ViewState": "AQIAACABAAAAAAAAAAAiwDMBAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:00:24.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Patients\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Patients\\Edit.cshtml",
-              "ViewState": "AQIAABsBAAAAAAAAAAAgwCQBAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-01T16:46:12.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClinicsController.cs",
-              "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\ClinicsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClinicsController.cs",
-              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\ClinicsController.cs",
-              "RelativeToolTip": "Controllers\\ClinicsController.cs",
-              "ViewState": "AQIAAGgAAAAAAAAAAAAgwBIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T16:29:49.395Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Patients\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Index.cshtml",
-              "RelativeToolTip": "Views\\Patients\\Index.cshtml",
-              "ViewState": "AQIAABsBAAAAAAAAAAAAAEkBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T12:59:42.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "PatientsController.cs",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\PatientsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PatientsController.cs",
@@ -161,32 +101,45 @@
               "RelativeToolTip": "Controllers\\PatientsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T16:28:33.854Z"
+              "WhenOpened": "2024-05-05T16:28:33.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "ClinicalRecordsController.cs",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\ClinicalRecordsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClinicalRecordsController.cs",
               "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\ClinicalRecordsController.cs",
               "RelativeToolTip": "Controllers\\ClinicalRecordsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAwG8AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T16:29:13.363Z"
+              "WhenOpened": "2024-05-05T16:29:13.363Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAA1AAAA",
+              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T18:43:31.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T18:43:31.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:46:39.421Z"
             },
             {
               "$type": "Document",
@@ -196,10 +149,60 @@
               "RelativeDocumentMoniker": "..\\Nkosi\\WebApplication1\\Controllers\\FileController.cs",
               "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\Nkosi\\WebApplication1\\Controllers\\FileController.cs",
               "RelativeToolTip": "..\\Nkosi\\WebApplication1\\Controllers\\FileController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAiwCYAAAA3AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T06:47:19.183Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClinicsController.cs",
+              "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\ClinicsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClinicsController.cs",
+              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\ClinicsController.cs",
+              "RelativeToolTip": "Controllers\\ClinicsController.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAgwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:29:49.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patients\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Patients\\Edit.cshtml",
+              "ViewState": "AQIAABIBAAAAAAAAAAAgwBcBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T16:46:12.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patients\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Details.cshtml",
+              "RelativeToolTip": "Views\\Patients\\Details.cshtml",
+              "ViewState": "AQIAAO8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T16:47:11.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patients\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Patients\\Delete.cshtml",
+              "ViewState": "AQIAAD0BAAAAAAAAAAAYwFkBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T17:06:56.166Z"
             },
             {
               "$type": "Document",
@@ -216,18 +219,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ClinicalRecord.cs",
-              "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Models\\ClinicalRecord.cs",
-              "RelativeDocumentMoniker": "Models\\ClinicalRecord.cs",
-              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Models\\ClinicalRecord.cs",
-              "RelativeToolTip": "Models\\ClinicalRecord.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA6wAoAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T16:25:40.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -239,19 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20240505191907_FilePath.cs",
-              "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Data\\Migrations\\20240505191907_FilePath.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240505191907_FilePath.cs",
-              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Data\\Migrations\\20240505191907_FilePath.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240505191907_FilePath.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T19:19:08.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "FileUploadViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\ViewModels\\FileUploadViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\FileUploadViewModel.cs",
@@ -260,18 +239,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T19:21:31.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\ClinicalRecords\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\ClinicalRecords\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\ClinicalRecords\\Create.cshtml",
-              "RelativeToolTip": "Views\\ClinicalRecords\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T17:01:15.667Z"
             },
             {
               "$type": "Document",
@@ -287,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Models\\Patient.cs",
               "RelativeDocumentMoniker": "Models\\Patient.cs",

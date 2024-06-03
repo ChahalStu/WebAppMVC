@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Azure.Storage.Blobs;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Data;
@@ -11,6 +12,8 @@ namespace WebApplication1.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IConfiguration _configuration;
+        private readonly string _azureBlobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=cdrsrecords;AccountKey=ujdGGDNDpsVEPjlY8Cy+/5N2vDDxhKuQB2SVWjIx0KHtfdU1RCCaJzXM6HSVrcaFYSullfWVJZd2+AStht1vbg==;EndpointSuffix=core.windows.net ";
+        private readonly string _blobContainerName = "cdrsrecords";
         public ClinicalRecordsController(IConfiguration configuration, ApplicationDbContext context)
         {
             _context = context;
@@ -70,19 +73,65 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ClinicalRecordID,FileName,Disorder,ClinicalContactCommenced,ClinicalContactTerminated,Date,RelevantInformation,CreatedBy,UpdatedBy,UpdatedDate,TutorEmailAddress,Clinician,AssessmentFindings,Referral,History,ClinicID,PatientID,FilePath")] ClinicalRecord clinicalRecord)
-        {
-
-            
+        public async Task<IActionResult> Create([Bind("ClinicalRecordID,FileName,Disorder,ClinicalContactCommenced,ClinicalContactTerminated,Date,RelevantInformation,CreatedBy,UpdatedBy,UpdatedDate,TutorEmailAddress,Clinician,AssessmentFindings,Referral,History,ClinicID,PatientID,FilePath")] IFormCollection form)
+        {   
+            var clinicalRecord = ExtractFormValuesIntoModel(form);
             if (ModelState.IsValid)
             {
+                BlobClient blobClient = await UploadFileToBlobStorage(form);
+                clinicalRecord.FilePath = blobClient.Uri.ToString();
                 _context.Add(clinicalRecord);
                 await _context.SaveChangesAsync();
+
                 return RedirectToAction(nameof(Index));
             }
             ViewData["ClinicID"] = new SelectList(_context.Set<Clinic>(), "ClinicID", "ClinicID", clinicalRecord.ClinicID);
             ViewData["PatientID"] = new SelectList(_context.Patient, "PatientID", "PatientID", clinicalRecord.PatientID);
             return View(clinicalRecord);
+        }
+
+        private async Task<BlobClient> UploadFileToBlobStorage(IFormCollection form)
+        {
+            var file = form.Files["file"];
+            
+            BlobServiceClient blobServiceClient = new BlobServiceClient(_azureBlobStorageConnectionString);
+            BlobContainerClient containerClient = blobServiceClient.GetBlobContainerClient(_blobContainerName);
+            BlobClient blobClient = containerClient.GetBlobClient(file.FileName);
+            await blobClient.UploadAsync(file.OpenReadStream(), true);
+            return blobClient;
+        }
+
+        private ClinicalRecord ExtractFormValuesIntoModel(IFormCollection form)
+        {
+            var clinicalRecord = new ClinicalRecord()
+            {
+                FileName = form["FileName"],
+                Disorder = form["Disorder"],
+                ClinicalContactCommenced = DateTime.Parse(form["ClinicalContactCommenced"]),
+                ClinicalContactTerminated = DateTime.Parse(form["ClinicalContactTerminated"]),
+                Date = DateTime.Parse(form["Date"]),
+                RelevantInformation = form["RelevantInformation"],
+                CreatedBy = form["CreatedBy"],
+                UpdatedBy = form["UpdatedBy"],
+                UpdatedDate = DateTime.Parse(form["UpdatedDate"]),
+                TutorEmailAddress = form["TutorEmailAddress"],
+                Clinician = form["Clinician"],
+                AssessmentFindings = form["AssessmentFindings"],
+                Referral = form["Referral"],
+                History = form["History"],
+                ClinicID = int.Parse(form["ClinicID"]),
+                PatientID = int.Parse(form["PatientID"])
+            };
+
+            return clinicalRecord;
+        }
+
+        private async Task UploadToBlobStorageAsync(IFormFile file)
+        {
+            BlobServiceClient blobServiceClient = new BlobServiceClient(_azureBlobStorageConnectionString);
+            BlobContainerClient containerClient = blobServiceClient.GetBlobContainerClient(_blobContainerName);
+            BlobClient blobClient = containerClient.GetBlobClient(file.FileName);
+            await blobClient.UploadAsync(file.OpenReadStream(), true);
         }
 
         // GET: ClinicalRecords/Edit/5
