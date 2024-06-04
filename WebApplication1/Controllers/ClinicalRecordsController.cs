@@ -14,7 +14,8 @@ namespace WebApplication1.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IConfiguration _configuration;
-       
+        private readonly string _azureBlobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=clinicalrecords;AccountKey=4SlfjGJb9Ass6rDhXpYCAadWAr9sl3GrdoRP4kc1cvcZBrIHyDddFgDGo4VHBTERiSReBMpA6RDa+AStBPuw+g==;EndpointSuffix=core.windows.net";
+
         private readonly string _blobContainerName = "medrecords";
         public ClinicalRecordsController(IConfiguration configuration, ApplicationDbContext context)
         {
