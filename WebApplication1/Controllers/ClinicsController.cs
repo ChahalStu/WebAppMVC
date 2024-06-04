@@ -67,10 +67,10 @@ namespace WebApplication1.Controllers
         public async Task<IActionResult> Create([Bind("ClinicID,ClinicName,ClinicLocation,IsActive")] Clinic clinic)
         {
 
-            var clinics = ExtractFormValuesIntoModel(form);
+            //var clinics = ExtractFormValuesIntoModel(form);
             if (ModelState.IsValid)
             {
-                _context.Add(clinics);
+                _context.Add(clinic);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
