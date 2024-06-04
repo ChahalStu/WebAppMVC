@@ -43,7 +43,22 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+        private Clinic ExtractFormValuesIntoModel(IFormCollection form)
+        {
 
+
+            var clinics = new Clinic()
+            {
+                ClinicID = int.Parse(form["ClinicID"]),
+                ClinicName = form["ClinicName"],
+                ClinicLocation = form["ClinicLocation"],
+                IsActive = bool.Parse(form["IsActive"])
+
+            };
+
+
+            return clinics;
+        }
         // POST: Clinics/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -51,9 +66,11 @@ namespace WebApplication1.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ClinicID,ClinicName,ClinicLocation,IsActive")] Clinic clinic)
         {
+
+            var clinics = ExtractFormValuesIntoModel(form);
             if (ModelState.IsValid)
             {
-                _context.Add(clinic);
+                _context.Add(clinics);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

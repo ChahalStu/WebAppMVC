@@ -8,12 +8,14 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
+
+
     public class ClinicalRecordsController : Controller
     {
         private readonly ApplicationDbContext _context;
         private readonly IConfiguration _configuration;
-        private readonly string _azureBlobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=cdrsrecords;AccountKey=ujdGGDNDpsVEPjlY8Cy+/5N2vDDxhKuQB2SVWjIx0KHtfdU1RCCaJzXM6HSVrcaFYSullfWVJZd2+AStht1vbg==;EndpointSuffix=core.windows.net";
-        private readonly string _blobContainerName = "cdrsrecords";
+        private readonly string _azureBlobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=clinicalrecords;AccountKey=4SlfjGJb9Ass6rDhXpYCAadWAr9sl3GrdoRP4kc1cvcZBrIHyDddFgDGo4VHBTERiSReBMpA6RDa+AStBPuw+g==;EndpointSuffix=core.windows.net";
+        private readonly string _blobContainerName = "medrecords";
         public ClinicalRecordsController(IConfiguration configuration, ApplicationDbContext context)
         {
             _context = context;
@@ -109,18 +111,19 @@ namespace WebApplication1.Controllers
                 Disorder = form["Disorder"],
                 ClinicalContactCommenced = DateTime.Parse(form["ClinicalContactCommenced"]),
                 ClinicalContactTerminated = DateTime.Parse(form["ClinicalContactTerminated"]),
-                Date = DateTime.Parse(form["Date"]),
+                Date = DateTime.Today,
                 RelevantInformation = form["RelevantInformation"],
                 CreatedBy = form["CreatedBy"],
                 UpdatedBy = form["UpdatedBy"],
-                UpdatedDate = DateTime.Parse(form["UpdatedDate"]),
+                UpdatedDate = DateTime.Today,
                 TutorEmailAddress = form["TutorEmailAddress"],
                 Clinician = form["Clinician"],
                 AssessmentFindings = form["AssessmentFindings"],
                 Referral = form["Referral"],
                 History = form["History"],
                 ClinicID = int.Parse(form["ClinicID"]),
-                PatientID = int.Parse(form["PatientID"])
+                PatientID = int.Parse(form["PatientID"]),
+                FilePath= form["FilePath"]
             };
 
             return clinicalRecord;
