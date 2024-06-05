@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Patient Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h2>Search Patients</h2>
+            <form method="post" action="/Patient/Search">
+                <div class="form-group">
+                    <label for="searchCriteria">Search By:</label>
+                    <select class="form-control" id="searchCriteria" name="searchCriteria">
+                        <option value="patientName">Patient Name</option>
+                        <option value="patientLastName">Patient Last Name</option>
+                        <option value="disorder">Disorder</option>
+                        <option value="clinic">Clinic</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="searchTerm">Search Term:</label>
+                    <input type="text" class="form-control" id="searchTerm" name="searchTerm" required />
+                </div>
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </body>
+    </html>
+
+
+}
