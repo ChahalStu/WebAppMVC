@@ -2,8 +2,7 @@
 {
     public class ManageUserRolesViewModel
     {
-        public string RoleId { get; set; }
-        public string RoleName { get; set; }
-        public bool Selected { get; set; }
+        public int UserId { get; set; }
+        public List<RolesViewModel> Roles { get; set; }
     }
 }

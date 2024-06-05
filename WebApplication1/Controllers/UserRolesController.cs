@@ -1,10 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using WebApplication1.ViewModels;
 
 namespace WebApplication1.Controllers
@@ -55,24 +50,24 @@ namespace WebApplication1.Controllers
                 }
 
                 ViewBag.UserName = user.UserName;
-                var model = new List<ManageUserRolesViewModel>();
+                var model = new ManageUserRolesViewModel();
 
                 foreach (var role in _roleManager.Roles.ToList())
                 {
-                    var userRolesViewModel = new ManageUserRolesViewModel
+                    var userRolesViewModel = new RolesViewModel
                     {
                         RoleId = role.Id,
                         RoleName = role.Name,
                         Selected = await _userManager.IsInRoleAsync(user, role.Name)
                     };
-                    model.Add(userRolesViewModel);
+                    model.Roles.Add(userRolesViewModel);
                 }
 
                 return View(model);
             }
 
             [HttpPost]
-            public async Task<IActionResult> Manage(List<ManageUserRolesViewModel> model, string userId)
+            public async Task<IActionResult> Manage(ManageUserRolesViewModel model, string userId)
             {
                 var user = await _userManager.FindByIdAsync(userId);
                 if (user == null)
@@ -88,7 +83,7 @@ namespace WebApplication1.Controllers
                     return View(model);
                 }
 
-                result = await _userManager.AddToRolesAsync(user, model.Where(x => x.Selected).Select(y => y.RoleName));
+                result = await _userManager.AddToRolesAsync(user, model.Roles.Where(x => x.Selected).Select(y => y.RoleName));
                 if (!result.Succeeded)
                 {
                     ModelState.AddModelError("", "Cannot add selected roles to user");
