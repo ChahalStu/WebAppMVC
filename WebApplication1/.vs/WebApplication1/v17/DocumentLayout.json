@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\chaha\\onedrive\\desktop\\final\\webappmvc\\webapplication1\\controllers\\userrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:controllers\\userrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\chaha\\onedrive\\desktop\\final\\webappmvc\\webapplication1\\views\\userroles\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\userroles\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\chaha\\onedrive\\desktop\\final\\webappmvc\\webapplication1\\controllers\\userrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:controllers\\userrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\chaha\\onedrive\\desktop\\final\\webappmvc\\webapplication1\\views\\userroles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -157,17 +157,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Manage.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\UserRoles\\Manage.cshtml",
               "RelativeDocumentMoniker": "Views\\UserRoles\\Manage.cshtml",
               "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\UserRoles\\Manage.cshtml",
               "RelativeToolTip": "Views\\UserRoles\\Manage.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABGAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-05T12:17:15.932Z",
               "EditorCaption": ""
@@ -182,8 +182,7 @@
               "RelativeToolTip": "Views\\UserRoles\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T12:16:09.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:16:09.736Z"
             },
             {
               "$type": "Document",
@@ -195,21 +194,19 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T12:15:56.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:15:56.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserRolesController.cs",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Controllers\\UserRolesController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserRolesController.cs",
               "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Controllers\\UserRolesController.cs",
               "RelativeToolTip": "Controllers\\UserRolesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAAAIAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwEwAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:11:11.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:11:11.223Z"
             },
             {
               "$type": "Document",
@@ -221,8 +218,7 @@
               "RelativeToolTip": "ViewModels\\ManageUserRolesViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:15:11.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:15:11.671Z"
             },
             {
               "$type": "Document",
@@ -234,8 +230,7 @@
               "RelativeToolTip": "ViewModels\\UserRolesViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:14:24.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:14:24.362Z"
             },
             {
               "$type": "Document",
@@ -247,8 +242,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T11:49:55.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T11:49:55.421Z"
             },
             {
               "$type": "Document",
@@ -284,8 +278,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T10:44:46.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T10:44:46.935Z"
             },
             {
               "$type": "Document",
@@ -297,8 +290,7 @@
               "RelativeToolTip": "Views\\Shared\\ManageUsers.cshtml",
               "ViewState": "AQIAAPIAAAAAAAAAAAAAAKUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T09:09:37.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T09:09:37.203Z"
             },
             {
               "$type": "Document",

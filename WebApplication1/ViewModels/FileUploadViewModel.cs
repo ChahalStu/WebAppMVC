@@ -2,7 +2,7 @@
 
 namespace WebApplication1.ViewModels
 {
-    public class FileUploadViewModel :ClinicalRecord 
+    public class FileUploadViewModel : ClinicalRecord
     {
         public byte[] FileData { get; set; }
     }
