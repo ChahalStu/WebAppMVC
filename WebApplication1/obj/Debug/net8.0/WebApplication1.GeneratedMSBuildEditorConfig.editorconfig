@@ -17,107 +17,171 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApplication1
 build_property.RootNamespace = WebApplication1
-build_property.ProjectDir = C:\Users\Lerusha\Documents\Chahal\WebAppMVC\WebApplication1\
+build_property.ProjectDir = C:\Users\chaha\OneDrive\Desktop\Final\WebAppMVC\WebApplication1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Lerusha\Documents\Chahal\WebAppMVC\WebApplication1
+build_property.MSBuildProjectDirectory = C:\Users\chaha\OneDrive\Desktop\Final\WebAppMVC\WebApplication1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/ClinicalRecords/Create.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/ClinicalRecords/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljYWxSZWNvcmRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/ClinicalRecords/Delete.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/ClinicalRecords/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljYWxSZWNvcmRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/ClinicalRecords/Details.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/ClinicalRecords/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljYWxSZWNvcmRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/ClinicalRecords/Edit.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/ClinicalRecords/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljYWxSZWNvcmRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/ClinicalRecords/Index.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/ClinicalRecords/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljYWxSZWNvcmRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Clinics/Create.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Clinics/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Clinics/Delete.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Clinics/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Clinics/Details.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Clinics/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Clinics/Edit.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Clinics/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Clinics/Index.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Clinics/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Home/Index.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Home/Privacy.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Patients/Create.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Patients/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Patients/Delete.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Patients/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Patients/Details.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Patients/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Patients/Edit.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Patients/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Patients/Index.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Patients/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Shared/Error.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Patients/PatientSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcUGF0aWVudFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Shared/ManageUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1hbmFnZVVzZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/_ViewImports.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/_ViewStart.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lerusha/Documents/Chahal/WebAppMVC/WebApplication1/Views/Shared/_Layout.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/Final/WebAppMVC/WebApplication1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bddmc6yalx
