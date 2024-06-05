@@ -56,8 +56,8 @@ namespace WebApplication1.Controllers
             {
                 var rolesViewModel = new RolesViewModel
                 {
-                    RoleId = role.Id,
-                    RoleName = role.Name,
+                    Id = role.Id,
+                    Name = role.Name,
                     Selected = await _userManager.IsInRoleAsync(user, role.Name)
                 };
                 model.Roles.Add(rolesViewModel);
@@ -67,7 +67,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Manage(ManageUserRolesViewModel model, string userId)
+        public async Task<IActionResult> Save(ManageUserRolesViewModel model, string userId)
         {
             var user = await _userManager.FindByIdAsync(userId);
             if (user == null)
@@ -83,7 +83,7 @@ namespace WebApplication1.Controllers
                 return View(model);
             }
 
-            result = await _userManager.AddToRolesAsync(user, model.Roles.Where(x => x.Selected).Select(y => y.RoleName));
+            result = await _userManager.AddToRolesAsync(user, model.Roles.Where(x => x.Selected).Select(y => y.Name));
             if (!result.Succeeded)
             {
                 ModelState.AddModelError("", "Cannot add selected roles to user");

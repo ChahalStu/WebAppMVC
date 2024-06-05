@@ -120,7 +120,7 @@
 
             </td>
                 <td>
-                    <a href="https://clinicalrecords.blob.core.windows.net/medrecords/Clinic%20Document%20Spec.docx" download>Download Document</a>
+                    <a href="@item.FilePath" download>Download Document</a>
                 </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ClinicalRecordID">Edit</a> |
