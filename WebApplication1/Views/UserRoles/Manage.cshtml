@@ -10,14 +10,34 @@
 <form asp-action="Manage" method="post">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <input type="hidden" asp-for="UserId" value="@ViewBag.userId" />
-    @foreach(var role in Model.Roles)
-    {
-        <div class="form-group">
-            <input type="hidden" asp-for="@role.RoleId" />
-            <label asp-for="@role.RoleName" class="control-label"></label>
-            <input asp-for="@role.Selected" class="form-control" />
-        </div>
-    }
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Role</th>
+                <th>Assigned</th>
+                <th>Unassigned</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var role in Model.Roles)
+            {
+                <tr>
+                    <td>
+                        <input type="hidden" asp-for="@role.RoleId" />
+                        <label asp-for="@role.RoleName" class="control-label"></label>
+                    </td>
+                    <td>
+                        <input type="radio" name="roles_@role.RoleId" value="assign" class="form-check-input" @(role.Selected ? "checked" : "") />
+                    </td>
+                    <td>
+                        <input type="radio" name="roles_@role.RoleId" value="unassign" class="form-check-input" @(!role.Selected ? "checked" : "") />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
     <button type="submit" class="btn btn-primary">Save</button>
     <a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </form>

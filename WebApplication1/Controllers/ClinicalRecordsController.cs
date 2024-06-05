@@ -1,4 +1,5 @@
 ﻿using Azure.Storage.Blobs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,7 +10,7 @@ using WebApplication1.Models;
 namespace WebApplication1.Controllers
 {
 
-
+    [Authorize]
     public class ClinicalRecordsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -62,7 +63,8 @@ namespace WebApplication1.Controllers
             return View(clinicalRecord);
         }
 
-        // GET: ClinicalRecords/Create
+        // GET: ClinicalRecords/Create /// need to make the role names work
+        [Authorize]
         public IActionResult Create()
         {
             ViewData["ClinicID"] = new SelectList(_context.Set<Clinic>(), "ClinicID", "ClinicID");
@@ -75,6 +77,8 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+
+
         public async Task<IActionResult> Create([Bind("ClinicalRecordID,FileName,Disorder,ClinicalContactCommenced,ClinicalContactTerminated,Date,RelevantInformation,CreatedBy,UpdatedBy,UpdatedDate,TutorEmailAddress,Clinician,AssessmentFindings,Referral,History,ClinicID,PatientID,FilePath")] IFormCollection form)
         {   
             var clinicalRecord = ExtractFormValuesIntoModel(form);
@@ -138,6 +142,7 @@ namespace WebApplication1.Controllers
         }
 
         // GET: ClinicalRecords/Edit/5
+      
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
