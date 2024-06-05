@@ -185,8 +185,7 @@
               "RelativeToolTip": "ViewModels\\RolesViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:54:59.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:54:59.825Z"
             },
             {
               "$type": "Document",
@@ -198,8 +197,7 @@
               "RelativeToolTip": "ViewModels\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:45:35.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:45:35.547Z"
             },
             {
               "$type": "Document",
@@ -211,8 +209,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAmwCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:45:16.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:45:16.176Z"
             },
             {
               "$type": "Document",
@@ -224,8 +221,7 @@
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T12:44:01.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:44:01.601Z"
             },
             {
               "$type": "Document",
@@ -237,8 +233,7 @@
               "RelativeToolTip": "Views\\UserRoles\\Manage.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T12:17:15.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:17:15.932Z"
             },
             {
               "$type": "Document",
@@ -250,8 +245,7 @@
               "RelativeToolTip": "Views\\UserRoles\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T12:16:09.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:16:09.736Z"
             },
             {
               "$type": "Document",
@@ -261,7 +255,7 @@
               "RelativeDocumentMoniker": "Controllers\\UserRolesController.cs",
               "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\UserRolesController.cs",
               "RelativeToolTip": "Controllers\\UserRolesController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBUAAAA0AAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T12:11:11.223Z",
               "EditorCaption": ""
@@ -276,8 +270,7 @@
               "RelativeToolTip": "ViewModels\\ManageUserRolesViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:15:11.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:15:11.671Z"
             },
             {
               "$type": "Document",
@@ -289,8 +282,7 @@
               "RelativeToolTip": "ViewModels\\UserRolesViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:14:24.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:14:24.362Z"
             },
             {
               "$type": "Document",
@@ -302,8 +294,7 @@
               "RelativeToolTip": "Views\\Shared\\ManageUsers.cshtml",
               "ViewState": "AQIAAB0AAAAAAAAAAAAAAKUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T09:09:37.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T09:09:37.203Z"
             },
             {
               "$type": "Document",
@@ -315,8 +306,7 @@
               "RelativeToolTip": "Views\\ClinicalRecords\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T20:13:30.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T20:13:30.519Z"
             },
             {
               "$type": "Document",
@@ -567,8 +557,7 @@
               "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\Nkosi\\WebApplication1\\Controllers\\FileController.cs",
               "RelativeToolTip": "..\\Nkosi\\WebApplication1\\Controllers\\FileController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T06:47:19.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T06:47:19.183Z"
             },
             {
               "$type": "Document",
