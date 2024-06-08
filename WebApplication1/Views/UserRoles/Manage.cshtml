@@ -9,29 +9,28 @@
 
 <form asp-action="Manage" method="post" enctype="multipart/form-data">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-    <input type="hidden" asp-for="UserId" value="@ViewBag.userId" />
+    <input type="hidden" name="UserId" value="@ViewBag.userId" />
 
     <table class="table">
         <thead>
             <tr>
                 <th>Role</th>
-                <th>Assigned</th>
-                <th>Unassigned</th>
+                <th>Assign/Unassign</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var role in Model.Roles)
+            @for (var i = 0; i < Model.Roles.Count; i++)
             {
+                var role = Model.Roles[i];
                 <tr>
                     <td>
-                        <input type="hidden" asp-for="@role.Id" />
-                        <label asp-for="@role.Name" value="@role.Name" class="control-label">@role.Name</label>
+                        <input type="hidden" name="Roles[@i].Id" value="@role.Id" />
+                        <input type="hidden" name="Roles[@i].Name" value="@role.Name" />
+                        <label>@role.Name</label>
                     </td>
                     <td>
-                        <input type="radio" name="roles_@role.Id" value="assign" class="form-check-input" @(role.Selected ? "checked" : "") />
-                    </td>
-                    <td>
-                        <input type="radio" name="roles_@role.Id" value="unassign" class="form-check-input" @(!role.Selected ? "checked" : "") />
+                        <input type="radio" name="Roles[@i].Selected" value="true" class="form-check-input" @(role.Selected ? "checked" : "") /> Assign
+                        <input type="radio" name="Roles[@i].Selected" value="false" class="form-check-input" @(!role.Selected ? "checked" : "") /> Unassign
                     </td>
                 </tr>
             }

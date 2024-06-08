@@ -21,10 +21,31 @@ namespace WebApplication1.Controllers
         {
             return View(await _context.Patient.ToListAsync());
         }
-        [HttpGet]
-        public async Task<IActionResult> Search()
+        [HttpPost]
+        public IActionResult Search(string searchCriteria, string searchTerm)
         {
-            return View(await _context.Patient.ToListAsync());
+            IQueryable<Patient> patients = _context.Patient; // Assuming "Patients" is your DbSet
+
+            // Perform search based on the selected search criteria
+            switch (searchCriteria)
+            {
+                case "patientName":
+                    patients = patients.Where(p => p.PatientName.Contains(searchTerm));
+                    break;
+                case "patientLastName":
+                    patients = patients.Where(p => p.PatientLastName.Contains(searchTerm));
+                    break;
+                case "disorder":
+                    patients = patients.Where(p => p.PatientEmailAddress.Contains(searchTerm));
+                    break;
+                case "clinic":
+                    patients = patients.Where(p => p.PatientContactNumber.Contains(searchTerm));
+                    break;               
+            }
+
+            // Optionally, you can pass the search results to the view
+            // For simplicity, I'm assuming you have a view named "SearchResults" to display the search results
+            return View("Index", patients.ToList());
         }
         // GET: Patients/Details/5
         public async Task<IActionResult> Details(int? id)

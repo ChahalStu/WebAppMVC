@@ -82,7 +82,7 @@ namespace WebApplication1.Controllers
                 ModelState.AddModelError("", "Cannot remove user existing roles");
                 return View(model);
             }
-
+            foreach (var role in model.Roles) { role.NormalizedName = role.Name; };
             result = await _userManager.AddToRolesAsync(user, model.Roles.Where(x => x.Selected).Select(y => y.Name));
             if (!result.Succeeded)
             {
