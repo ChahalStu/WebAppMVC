@@ -316,6 +316,34 @@ namespace WebApplication1.Data.Migrations
                     b.ToTable("ClinicalRecord");
                 });
 
+            modelBuilder.Entity("WebApplication1.Models.Doctor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("DoctorContactNo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DoctorEmailAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DoctorInstitution")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DoctorName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DoctorType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Doctor");
+                });
+
             modelBuilder.Entity("WebApplication1.Models.Patient", b =>
                 {
                     b.Property<int>("PatientID")
@@ -329,15 +357,6 @@ namespace WebApplication1.Data.Migrations
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("FamilyDoctorContactNo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FamilyDoctorInstitution")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FamilyDoctorName")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FatherAddress")
                         .HasColumnType("nvarchar(max)");
@@ -363,6 +382,9 @@ namespace WebApplication1.Data.Migrations
                     b.Property<string>("Grade")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("IDNumber")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("MotherAddress")
                         .HasColumnType("nvarchar(max)");
 
@@ -382,21 +404,6 @@ namespace WebApplication1.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MotherWorkPhone")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("OccupationalTherapist")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("OccupationalTherapistContactNo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("OccupationalTherapistInstitution")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("OccupationalTherapistName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("OtherDoctorDetails")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PatientAddress")
@@ -433,28 +440,10 @@ namespace WebApplication1.Data.Migrations
                     b.Property<string>("PostalCode")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("PsychologistContactNo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PsychologistInstitution")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PsychologistName")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("School")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SchoolContactNo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SocialWorkerContactNo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SocialWorkerInstitution")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SocialWorkerName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SpouseContactNo")
