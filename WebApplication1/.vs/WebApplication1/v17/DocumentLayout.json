@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\chaha\\onedrive\\desktop\\final\\webappmvc\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\chaha\\onedrive\\desktop\\final\\webappmvc\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\chaha\\onedrive\\desktop\\final\\webappmvc\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -131,14 +139,6 @@
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\chaha\\onedrive\\desktop\\final\\webappmvc\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\chaha\\onedrive\\desktop\\final\\webappmvc\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\chaha\\onedrive\\desktop\\final\\webappmvc\\webapplication1\\controllers\\clinicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:controllers\\clinicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -201,49 +201,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACoAAABEAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwDMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-05T18:43:31.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PatientsController.cs",
-              "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Controllers\\PatientsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PatientsController.cs",
-              "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Controllers\\PatientsController.cs",
-              "RelativeToolTip": "Controllers\\PatientsController.cs",
-              "ViewState": "AQIAAJcAAAAAAAAAAAAqwKYAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T08:05:22.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DoctorsController.cs",
-              "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Controllers\\DoctorsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DoctorsController.cs",
-              "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Controllers\\DoctorsController.cs",
-              "RelativeToolTip": "Controllers\\DoctorsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:49:25.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -256,19 +231,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Models\\Patient.cs",
               "RelativeDocumentMoniker": "Models\\Patient.cs",
               "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Models\\Patient.cs",
               "RelativeToolTip": "Models\\Patient.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAA4wAwAAAA3AAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAA2wAwAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:28:30.471Z"
+              "WhenOpened": "2024-06-08T16:28:30.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -281,7 +257,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T11:49:55.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebApplication1.csproj",
+              "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\WebApplication1.csproj",
+              "RelativeDocumentMoniker": "WebApplication1.csproj",
+              "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\WebApplication1.csproj",
+              "RelativeToolTip": "WebApplication1.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-05T08:45:56.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DoctorsController.cs",
+              "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Controllers\\DoctorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoctorsController.cs",
+              "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Controllers\\DoctorsController.cs",
+              "RelativeToolTip": "Controllers\\DoctorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T16:49:25.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientsController.cs",
+              "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "Controllers\\PatientsController.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAqwKYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T08:05:22.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PatientSearch.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Patients\\PatientSearch.cshtml",
               "RelativeDocumentMoniker": "Views\\Patients\\PatientSearch.cshtml",
@@ -294,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Doctor.cs",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Models\\Doctor.cs",
               "RelativeDocumentMoniker": "Models\\Doctor.cs",
@@ -302,35 +330,38 @@
               "RelativeToolTip": "Models\\Doctor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:46:27.09Z"
+              "WhenOpened": "2024-06-08T16:46:27.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Patients\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Patients\\Details.cshtml",
               "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Patients\\Details.cshtml",
               "RelativeToolTip": "Views\\Patients\\Details.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAA0AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwCMAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-01T16:47:11.422Z"
+              "WhenOpened": "2024-06-01T16:47:11.422Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Patients\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Patients\\Edit.cshtml",
               "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Patients\\Edit.cshtml",
               "RelativeToolTip": "Views\\Patients\\Edit.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAyAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwCEAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-01T16:46:12.886Z"
+              "WhenOpened": "2024-06-01T16:46:12.886Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -338,23 +369,25 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AQIAAOQCAAAAAAAAAAAIwPcCAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-05T08:19:17.833Z"
+              "WhenOpened": "2024-06-05T08:19:17.833Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Patients\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Patients\\Create.cshtml",
               "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Patients\\Create.cshtml",
               "RelativeToolTip": "Views\\Patients\\Create.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACwAAAAkAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAIBJwCwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T09:32:39.571Z"
+              "WhenOpened": "2024-06-05T09:32:39.571Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "UserRolesController.cs",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Controllers\\UserRolesController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserRolesController.cs",
@@ -367,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "20240608165024_Doctor.cs",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Data\\Migrations\\20240608165024_Doctor.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240608165024_Doctor.cs",
@@ -375,11 +408,12 @@
               "RelativeToolTip": "Data\\Migrations\\20240608165024_Doctor.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:50:24.302Z"
+              "WhenOpened": "2024-06-08T16:50:24.302Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "20240608175043_NotSure.cs",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Data\\Migrations\\20240608175043_NotSure.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240608175043_NotSure.cs",
@@ -387,7 +421,8 @@
               "RelativeToolTip": "Data\\Migrations\\20240608175043_NotSure.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T17:50:43.659Z"
+              "WhenOpened": "2024-06-08T17:50:43.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -403,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Patients\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Patients\\Delete.cshtml",
@@ -411,7 +446,8 @@
               "RelativeToolTip": "Views\\Patients\\Delete.cshtml",
               "ViewState": "AQIAANUAAAAAAAAAAAAiwOUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-01T17:06:56.166Z"
+              "WhenOpened": "2024-06-01T17:06:56.166Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -427,19 +463,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Patients\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Patients\\Index.cshtml",
               "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Patients\\Index.cshtml",
               "RelativeToolTip": "Views\\Patients\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T08:11:12.184Z"
+              "WhenOpened": "2024-06-05T08:11:12.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\UserRoles\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\UserRoles\\Index.cshtml",
@@ -447,11 +484,12 @@
               "RelativeToolTip": "Views\\UserRoles\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T12:16:09.736Z"
+              "WhenOpened": "2024-06-05T12:16:09.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "RolesViewModel.cs",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\ViewModels\\RolesViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\RolesViewModel.cs",
@@ -459,23 +497,25 @@
               "RelativeToolTip": "ViewModels\\RolesViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T19:24:44.321Z"
+              "WhenOpened": "2024-06-08T19:24:44.321Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\ClinicalRecords\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\ClinicalRecords\\Details.cshtml",
               "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\ClinicalRecords\\Details.cshtml",
               "RelativeToolTip": "Views\\ClinicalRecords\\Details.cshtml",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAA0AAAA2AAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAIBJwA0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T20:14:30.09Z"
+              "WhenOpened": "2024-06-04T20:14:30.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Manage.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\UserRoles\\Manage.cshtml",
               "RelativeDocumentMoniker": "Views\\UserRoles\\Manage.cshtml",
@@ -483,11 +523,12 @@
               "RelativeToolTip": "Views\\UserRoles\\Manage.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAYwA4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T12:17:15.932Z"
+              "WhenOpened": "2024-06-05T12:17:15.932Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "ManageUserRolesViewModel.cs",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\ViewModels\\ManageUserRolesViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\ManageUserRolesViewModel.cs",
@@ -495,11 +536,12 @@
               "RelativeToolTip": "ViewModels\\ManageUserRolesViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T15:14:30.147Z"
+              "WhenOpened": "2024-06-08T15:14:30.147Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "UserRolesViewModel.cs",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\ViewModels\\UserRolesViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\UserRolesViewModel.cs",
@@ -507,11 +549,12 @@
               "RelativeToolTip": "ViewModels\\UserRolesViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:14:24.362Z"
+              "WhenOpened": "2024-06-05T12:14:24.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\ClinicalRecords\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\ClinicalRecords\\Index.cshtml",
@@ -519,23 +562,25 @@
               "RelativeToolTip": "Views\\ClinicalRecords\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T19:37:51.285Z"
+              "WhenOpened": "2024-05-05T19:37:51.285Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\ClinicalRecords\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\ClinicalRecords\\Create.cshtml",
               "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\ClinicalRecords\\Create.cshtml",
               "RelativeToolTip": "Views\\ClinicalRecords\\Create.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAIBJwAwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T20:13:30.519Z"
+              "WhenOpened": "2024-06-04T20:13:30.519Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "ClinicalRecordsController.cs",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Controllers\\ClinicalRecordsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClinicalRecordsController.cs",
@@ -543,11 +588,12 @@
               "RelativeToolTip": "Controllers\\ClinicalRecordsController.cs",
               "ViewState": "AQIAAPEAAAAAAAAAAAAqwAMBAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T16:29:13.363Z"
+              "WhenOpened": "2024-05-05T16:29:13.363Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -555,23 +601,25 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-28T15:22:04.862Z"
+              "WhenOpened": "2024-05-28T15:22:04.862Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "ManageUsers.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Shared\\ManageUsers.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\ManageUsers.cshtml",
               "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Shared\\ManageUsers.cshtml",
               "RelativeToolTip": "Views\\Shared\\ManageUsers.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAABIwDUAAAAbAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAswDUAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T09:09:37.203Z"
+              "WhenOpened": "2024-06-05T09:09:37.203Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -579,11 +627,12 @@
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T12:44:01.601Z"
+              "WhenOpened": "2024-06-05T12:44:01.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -591,11 +640,12 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAmwCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:45:16.176Z"
+              "WhenOpened": "2024-06-05T12:45:16.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\ViewModels\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\ErrorViewModel.cs",
@@ -603,7 +653,8 @@
               "RelativeToolTip": "ViewModels\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:45:35.547Z"
+              "WhenOpened": "2024-06-05T12:45:35.547Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -619,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -627,31 +678,8 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T12:15:56.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T11:49:55.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "WebApplication1.csproj",
-              "DocumentMoniker": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\WebApplication1.csproj",
-              "RelativeDocumentMoniker": "WebApplication1.csproj",
-              "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\WebApplication1.csproj",
-              "RelativeToolTip": "WebApplication1.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-05T08:45:56.868Z"
+              "WhenOpened": "2024-06-05T12:15:56.83Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
