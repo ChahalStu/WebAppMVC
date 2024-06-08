@@ -323,7 +323,7 @@
               "RelativeDocumentMoniker": "Views\\Patients\\Index.cshtml",
               "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Index.cshtml",
               "RelativeToolTip": "Views\\Patients\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABSAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-05T08:11:12.184Z",
               "EditorCaption": ""
@@ -362,7 +362,8 @@
               "RelativeToolTip": "Controllers\\PatientsController.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAtwB8AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T08:05:22.138Z"
+              "WhenOpened": "2024-06-05T08:05:22.138Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -398,7 +399,8 @@
               "RelativeToolTip": "Controllers\\UserRolesController.cs",
               "ViewState": "AQIAAEEAAAAAAAAAAAAtwFUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:11:11.223Z"
+              "WhenOpened": "2024-06-05T12:11:11.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -709,7 +711,8 @@
               "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\Nkosi\\WebApplication1\\Controllers\\FileController.cs",
               "RelativeToolTip": "..\\Nkosi\\WebApplication1\\Controllers\\FileController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T06:47:19.183Z"
+              "WhenOpened": "2024-05-22T06:47:19.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
