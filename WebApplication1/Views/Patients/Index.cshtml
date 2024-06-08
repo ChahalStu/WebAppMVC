@@ -9,13 +9,11 @@
     
 </h1>
 
-<div style="text-align: right;">
-    <button asp-action="Create" class="btn btn-primary mb-2">Create New</button>
-</div>
+
 <div class="container">
     <form method="post" action="/Patients/Search">
         <div class="form-row row">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <select class="form-control mb-2" id="searchCriteria" name="searchCriteria">
                     <option value="patientName">Patient Name</option>
                     <option value="patientLastName">Patient Last Name</option>
@@ -23,12 +21,15 @@
                     <option value="contactNumber">Patient Contact Number</option>
                 </select>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <input type="text" class="form-control mb-2" id="searchTerm" name="searchTerm" placeholder="Enter search term" minlength="3" required />
-                <small class="form-text text-muted">Minimum 3 characters required.</small>
+                <small class="form-text text-muted"><strong>Minimum 3 characters required.</strong></small>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <button type="submit" class="btn btn-primary mb-2">Search</button>
+            </div>
+            <div class="col-md-3" style="text-align: right;">
+                <button asp-action="Create" class="btn btn-primary mb-2">Create New</button>
             </div>
         </div>
     </form>
@@ -38,321 +39,53 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.PatientName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PatientLastName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PatientDateOfBirth)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PatientGender)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PatientAddress)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PostalCode)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PatientContactNumber)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PatientEmailAddress)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PatientEmployerCellNo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PatientOccupation)
-            </th>
-@*             <th>
-                @Html.DisplayNameFor(model => model.CreatedBy)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UpdatedBy)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreatedDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SpouseName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SpouseContactNo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UpdatedDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.isActive)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.isPatientStudent)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.School)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Grade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Teacher)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SchoolContactNo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FatherDetails)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FathersName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FatherOccupation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FatherAddress)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FatherWorkPhone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FatherCellPhone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FatherEmail)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MotherDetails)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MotherName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MotherOccupation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MotherAddress)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MotherCellphone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MotherWorkPhone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MotherEmail)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.OtherDoctorDetails)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FamilyDoctorName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FamilyDoctorInstitution)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FamilyDoctorContactNo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PsychologistName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PsychologistInstitution)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PsychologistContactNo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SocialWorkerName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SocialWorkerInstitution)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SocialWorkerContactNo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.OccupationalTherapist)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.OccupationalTherapistName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.OccupationalTherapistInstitution)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.OccupationalTherapistContactNo)
-            </th> *@
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.PatientName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PatientLastName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PatientDateOfBirth)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PatientGender)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PatientAddress)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PostalCode)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PatientContactNumber)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PatientEmailAddress)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PatientEmployerCellNo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PatientOccupation)
-            </td>
-                @*            <td>
-                @Html.DisplayFor(modelItem => item.CreatedBy)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UpdatedBy)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatedDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SpouseName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SpouseContactNo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UpdatedDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.isActive)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.isPatientStudent)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.School)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Grade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Teacher)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SchoolContactNo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FatherDetails)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FathersName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FatherOccupation)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FatherAddress)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FatherWorkPhone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FatherCellPhone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FatherEmail)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MotherDetails)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MotherName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MotherOccupation)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MotherAddress)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MotherCellphone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MotherWorkPhone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MotherEmail)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OtherDoctorDetails)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FamilyDoctorName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FamilyDoctorInstitution)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FamilyDoctorContactNo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PsychologistName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PsychologistInstitution)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PsychologistContactNo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SocialWorkerName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SocialWorkerInstitution)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SocialWorkerContactNo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OccupationalTherapist)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OccupationalTherapistName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OccupationalTherapistInstitution)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OccupationalTherapistContactNo)
-            </td> *@
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.PatientID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.PatientID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.PatientID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container">
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Patient Name</th>
+                    <th>Last Name</th>
+                    <th>Date of Birth</th>
+                    <th>Gender</th>
+                    <th>Address</th>
+                    <th>Postal Code</th>
+                    <th>Contact Number</th>
+                    <th>Email Address</th>
+                    <th>Employer Cell No</th>
+                    <th>Occupation</th>
+                    <th>Created By</th>
+                    <th>Updated By</th>
+                    <th>Created Date</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.PatientName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PatientLastName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PatientDateOfBirth)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PatientGender)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PatientAddress)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PostalCode)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PatientContactNumber)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PatientEmailAddress)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PatientEmployerCellNo)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PatientOccupation)</td>
+                        <td>@Html.DisplayFor(modelItem => item.CreatedBy)</td>
+                        <td>@Html.DisplayFor(modelItem => item.UpdatedBy)</td>
+                        <td>@Html.DisplayFor(modelItem => item.CreatedDate)</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.PatientID">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.PatientID">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.PatientID">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
