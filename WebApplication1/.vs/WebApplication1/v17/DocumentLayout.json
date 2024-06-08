@@ -183,7 +183,7 @@
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:data\\migrations\\20240608163311_addidnum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB4ACD4E-B1FB-4015-9D3E-75CF56C27463}|..\\Nkosi\\WebApplication1\\WebApplication2.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\nkosi\\webapplication1\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\Nkosi\\WebApplication1\\Controllers\\FileController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -205,8 +205,7 @@
               "RelativeToolTip": "Data\\Migrations\\20240608165024_Doctor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:50:24.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T16:50:24.302Z"
             },
             {
               "$type": "Document",
@@ -302,8 +301,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-05T08:14:42.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T08:14:42.953Z"
             },
             {
               "$type": "Document",
@@ -364,8 +362,7 @@
               "RelativeToolTip": "Controllers\\PatientsController.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAtwB8AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T08:05:22.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T08:05:22.138Z"
             },
             {
               "$type": "Document",
@@ -401,8 +398,7 @@
               "RelativeToolTip": "Controllers\\UserRolesController.cs",
               "ViewState": "AQIAAEEAAAAAAAAAAAAtwFUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:11:11.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:11:11.223Z"
             },
             {
               "$type": "Document",
@@ -713,8 +709,7 @@
               "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\Nkosi\\WebApplication1\\Controllers\\FileController.cs",
               "RelativeToolTip": "..\\Nkosi\\WebApplication1\\Controllers\\FileController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T06:47:19.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T06:47:19.183Z"
             },
             {
               "$type": "Document",

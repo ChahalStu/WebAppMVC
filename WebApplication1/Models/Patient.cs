@@ -44,8 +44,8 @@
             public string? MotherEmail { get; set; }
 
 
-        public string? IDNumber { get; set; } 
-
+        public string? IDNumber { get; set; }
+        public List<Doctor>? Doctor { get; set; }
 
         public List<ClinicalRecord>? ClinicalRecords { get; set; }
 
