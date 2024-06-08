@@ -42,20 +42,9 @@
             public string? MotherCellphone { get; set; }
             public string? MotherWorkPhone { get; set; }
             public string? MotherEmail { get; set; }
-            public string? OtherDoctorDetails { get; set; }
-            public string? FamilyDoctorName { get; set; }
-            public string? FamilyDoctorInstitution { get; set; }
-            public string? FamilyDoctorContactNo { get; set; }
-            public string? PsychologistName { get; set; }
-            public string? PsychologistInstitution { get; set; }
-            public string? PsychologistContactNo { get; set; }
-            public string? SocialWorkerName { get; set; }
-            public string? SocialWorkerInstitution { get; set; }
-            public string? SocialWorkerContactNo { get; set; }
-            public string? OccupationalTherapist { get; set; }
-            public string? OccupationalTherapistName { get; set; }
-            public string? OccupationalTherapistInstitution { get; set; }
-            public string? OccupationalTherapistContactNo { get; set; }
+
+
+        public string? IDNumber { get; set; } 
 
 
         public List<ClinicalRecord>? ClinicalRecords { get; set; }
