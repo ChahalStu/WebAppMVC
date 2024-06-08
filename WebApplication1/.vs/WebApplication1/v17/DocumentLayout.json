@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\views\\patients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\patients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\views\\userroles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -173,7 +173,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -198,8 +198,7 @@
               "RelativeToolTip": "Views\\UserRoles\\Manage.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAYwA4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T12:17:15.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:17:15.932Z"
             },
             {
               "$type": "Document",
@@ -223,18 +222,17 @@
               "RelativeToolTip": "Views\\UserRoles\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T12:16:09.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:16:09.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Patients\\Index.cshtml",
               "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Index.cshtml",
               "RelativeToolTip": "Views\\Patients\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-05T08:11:12.184Z",
               "EditorCaption": ""
@@ -249,8 +247,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-05T08:14:42.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T08:14:42.953Z"
             },
             {
               "$type": "Document",
@@ -262,8 +259,7 @@
               "RelativeToolTip": "Views\\Patients\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T09:32:39.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T09:32:39.571Z"
             },
             {
               "$type": "Document",
@@ -275,18 +271,17 @@
               "RelativeToolTip": "ViewModels\\RolesViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T13:53:50.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T13:53:50.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PatientsController.cs",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\PatientsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PatientsController.cs",
               "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\PatientsController.cs",
               "RelativeToolTip": "Controllers\\PatientsController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAtwC0AAABGAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAtwBkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T08:05:22.138Z",
               "EditorCaption": ""
@@ -301,8 +296,7 @@
               "RelativeToolTip": "ViewModels\\ManageUserRolesViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T15:14:30.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T15:14:30.147Z"
             },
             {
               "$type": "Document",
@@ -314,8 +308,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAD4vzIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T10:44:46.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T10:44:46.935Z"
             },
             {
               "$type": "Document",
@@ -327,8 +320,7 @@
               "RelativeToolTip": "ViewModels\\UserRolesViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:14:24.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:14:24.362Z"
             },
             {
               "$type": "Document",
