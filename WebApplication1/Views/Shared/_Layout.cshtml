@@ -19,30 +19,18 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+              
+                        <li class="navbar-brand">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Patients" asp-action="Index">Patients</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle show" data-bs-toggle="dropdown" asp-area="" asp-controller="Patients" asp-action="Index" role="button" aria-haspopup="true" aria-expanded="true">Patients</a>
-                            <div class="dropdown-menu" data-bs-popper="static">
-                                <a class="dropdown-item" asp-area="" asp-controller="Patients" asp-action="Create">New Patient</a>
-                                <a class="dropdown-item" asp-area="" asp-controller="Patients" asp-action="Edit">Edit an Existing Patients</a>
-                                <a class="dropdown-item" asp-area="" asp-controller="Patients" asp-action="Index">View Patients</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Separated link</a>
-                            </div>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="ClinicalRecords" asp-action="Index">Clinical Record</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle show" data-bs-toggle="dropdown" asp-area="" asp-controller="Clinics" asp-action="Index" role="button" aria-haspopup="true" aria-expanded="true">Clinic</a>
-                            <div class="dropdown-menu" data-bs-popper="static">
-                                <a class="dropdown-item" asp-area="" asp-controller="Clinics" asp-action="Create">New Clinic</a>
-                                <a class="dropdown-item" asp-area="" asp-controller="Clinics" asp-action="Edit">Edit an Existing Clinic</a>
-                                <a class="dropdown-item" asp-area="" asp-controller="Clinics" asp-action="Index">View Clinics</a>
-                                <div class="dropdown-divider"></div>
-               
-                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Clinics" asp-action="Index">Clinicals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Doctors" asp-action="Index">Doctors</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="UserRoles" asp-action="Index">Assign User Roles</a>
