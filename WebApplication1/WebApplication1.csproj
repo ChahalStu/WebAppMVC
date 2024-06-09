@@ -23,7 +23,10 @@
 
   <ItemGroup>
     <Folder Include="Content\" />
-    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\HospitalManagementSystem.jpg" />
   </ItemGroup>
 
 </Project>

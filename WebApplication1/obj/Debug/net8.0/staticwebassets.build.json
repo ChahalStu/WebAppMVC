@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IW+Gr1TPcjwNHowPw23Ux6QJ5xzaa3rL1K42Yz6g6l8=",
+  "Hash": "f2mcutsJ7I/GCUXatoaD0bhzFhAd2nt674nTmfT9DD8=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\wwwroot\\images\\HospitalManagementSystem.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "images/HospitalManagementSystem.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\HospitalManagementSystem.jpg"
     },
     {
       "Identity": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\wwwroot\\js\\site.js",

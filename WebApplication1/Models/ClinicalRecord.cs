@@ -24,9 +24,12 @@ namespace WebApplication1.Models
         public int ClinicID { get; set; }
         public int PatientID { get; set; }
 
+        public int ? DoctorID { get; set; } = 1;
+
         // Relationships
         public Clinic Clinic { get; set; }
         public Patient Patient { get; set; }
 
+        public Doctor Doctor { get; set; } 
     }
 }

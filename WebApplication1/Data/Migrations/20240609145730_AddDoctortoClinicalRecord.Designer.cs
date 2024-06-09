@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebApplication1.Data;
 
@@ -11,9 +12,11 @@ using WebApplication1.Data;
 namespace WebApplication1.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240609145730_AddDoctortoClinicalRecord")]
+    partial class AddDoctortoClinicalRecord
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -280,7 +283,7 @@ namespace WebApplication1.Data.Migrations
                     b.Property<string>("Disorder")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("DoctorID")
+                    b.Property<int>("DoctorID")
                         .HasColumnType("int");
 
                     b.Property<string>("FileName")
@@ -323,11 +326,11 @@ namespace WebApplication1.Data.Migrations
 
             modelBuilder.Entity("WebApplication1.Models.Doctor", b =>
                 {
-                    b.Property<int>("DoctorID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DoctorID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("DoctorContactNo")
                         .HasColumnType("nvarchar(max)");
@@ -347,7 +350,7 @@ namespace WebApplication1.Data.Migrations
                     b.Property<int?>("PatientID")
                         .HasColumnType("int");
 
-                    b.HasKey("DoctorID");
+                    b.HasKey("Id");
 
                     b.HasIndex("PatientID");
 
@@ -542,8 +545,10 @@ namespace WebApplication1.Data.Migrations
                         .IsRequired();
 
                     b.HasOne("WebApplication1.Models.Doctor", "Doctor")
-                        .WithMany("ClinicalRecords")
-                        .HasForeignKey("DoctorID");
+                        .WithMany()
+                        .HasForeignKey("DoctorID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("WebApplication1.Models.Patient", "Patient")
                         .WithMany("ClinicalRecords")
@@ -566,11 +571,6 @@ namespace WebApplication1.Data.Migrations
                 });
 
             modelBuilder.Entity("WebApplication1.Models.Clinic", b =>
-                {
-                    b.Navigation("ClinicalRecords");
-                });
-
-            modelBuilder.Entity("WebApplication1.Models.Doctor", b =>
                 {
                     b.Navigation("ClinicalRecords");
                 });

@@ -34,7 +34,7 @@ namespace WebApplication1.Controllers
             }
 
             var doctor = await _context.Doctor
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.DoctorID == id);
             if (doctor == null)
             {
                 return NotFound();
@@ -54,7 +54,7 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,DoctorType,DoctorName,DoctorInstitution,DoctorContactNo,DoctorEmailAddress")] Doctor doctor)
+        public async Task<IActionResult> Create([Bind("DoctorID,DoctorType,DoctorName,DoctorInstitution,DoctorContactNo,DoctorEmailAddress")] Doctor doctor)
         {
             if (ModelState.IsValid)
             {
@@ -86,9 +86,9 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,DoctorType,DoctorName,DoctorInstitution,DoctorContactNo,DoctorEmailAddress")] Doctor doctor)
+        public async Task<IActionResult> Edit(int id, [Bind("DoctorID,DoctorType,DoctorName,DoctorInstitution,DoctorContactNo,DoctorEmailAddress")] Doctor doctor)
         {
-            if (id != doctor.Id)
+            if (id != doctor.DoctorID)
             {
                 return NotFound();
             }
@@ -102,7 +102,7 @@ namespace WebApplication1.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!DoctorExists(doctor.Id))
+                    if (!DoctorExists(doctor.DoctorID))
                     {
                         return NotFound();
                     }
@@ -125,7 +125,7 @@ namespace WebApplication1.Controllers
             }
 
             var doctor = await _context.Doctor
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.DoctorID == id);
             if (doctor == null)
             {
                 return NotFound();
@@ -151,7 +151,7 @@ namespace WebApplication1.Controllers
 
         private bool DoctorExists(int id)
         {
-            return _context.Doctor.Any(e => e.Id == id);
+            return _context.Doctor.Any(e => e.DoctorID == id);
         }
     }
 }
