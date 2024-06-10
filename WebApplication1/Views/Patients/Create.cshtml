@@ -18,7 +18,7 @@
                 <span asp-validation-for="PatientName" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="PatientLastName" class="control-label"></label>
+                <label asp-for="PatientLastName" class="control-label"></label> 
                 <input asp-for="PatientLastName" class="form-control" />
                 <span asp-validation-for="PatientLastName" class="text-danger"></span>
             </div>
@@ -69,13 +69,13 @@
             </div>
             <div class="form-group">
                 <label asp-for="CreatedBy" class="control-label"></label>
-                <input asp-for="CreatedBy" class="form-control" />
+                <input asp-for="CreatedBy" value="@ViewBag.LoggedInUser" class="form-control" />
                 <span asp-validation-for="CreatedBy" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="UpdatedBy" class="control-label"></label>
-                <input asp-for="UpdatedBy" class="form-control" />
-                <span asp-validation-for="UpdatedBy" class="text-danger"></span>
+                <input asp-for="UpdatedBy" value="@ViewBag.LoggedInUser" class="form-control" />
+                <span asp-validation-for="UpdatedBy"  class="text-danger"></span>
             </div>
 @*             <div class="form-group">
                 <label asp-for="CreatedDate" class="control-label"></label>

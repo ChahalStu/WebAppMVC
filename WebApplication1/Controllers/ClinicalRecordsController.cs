@@ -1,5 +1,6 @@
 ﻿using Azure.Storage.Blobs;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -17,10 +18,12 @@ namespace WebApplication1.Controllers
         private readonly IConfiguration _configuration;
         private readonly string _azureBlobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=clinicalrecords;AccountKey=4SlfjGJb9Ass6rDhXpYCAadWAr9sl3GrdoRP4kc1cvcZBrIHyDddFgDGo4VHBTERiSReBMpA6RDa+AStBPuw+g==;EndpointSuffix=core.windows.net";
         private readonly string _blobContainerName = "medrecords";
-        public ClinicalRecordsController(IConfiguration configuration, ApplicationDbContext context)
+        private readonly UserManager<IdentityUser> _userManager;
+        public ClinicalRecordsController(IConfiguration configuration, ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
             _configuration = configuration;
+            _userManager = userManager;
         }
 
         // GET: ClinicalRecords
@@ -94,10 +97,10 @@ namespace WebApplication1.Controllers
         [Authorize]
         public IActionResult Create()
         {
-            ViewData["ClinicName"] = new SelectList(_context.Set<Clinic>(), "ClinicName", "ClinicName");
-            ViewData["PatientName"] = new SelectList(_context.Patient, "PatientName", "PatientName");
+            ViewData["ClinicID"] = new SelectList(_context.Set<Clinic>(), "ClinicID", "ClinicID");
+            ViewData["PatientID"] = new SelectList(_context.Patient, "PatientID", "PatientID");
 
-            ViewData["DoctorName"] = new SelectList(_context.Doctor, "DoctorName", "DoctorName");
+            ViewData["DoctorID"] = new SelectList(_context.Doctor, "DoctorID", "DoctorID");
             return View();
         }
 
