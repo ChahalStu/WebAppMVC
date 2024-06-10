@@ -24,9 +24,8 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public IActionResult Search(string searchCriteria, string searchTerm)
         {
-            IQueryable<Patient> patients = _context.Patient; // Assuming "Patients" is your DbSet
+            IQueryable<Patient> patients = _context.Patient; 
 
-            // Perform search based on the selected search criteria
             switch (searchCriteria)
             {
                 case "patientName":
@@ -43,8 +42,6 @@ namespace WebApplication1.Controllers
                     break;               
             }
 
-            // Optionally, you can pass the search results to the view
-            // For simplicity, I'm assuming you have a view named "SearchResults" to display the search results
             return View("Index", patients.ToList());
         }
         // GET: Patients/Details/5
@@ -65,17 +62,7 @@ namespace WebApplication1.Controllers
             return View(patient);
         }
 
-        // GET: Patients/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: Patients/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
+        [HttpGet]
         public async Task<IActionResult> Create([Bind("PatientID,PatientName,PatientLastName,PatientDateOfBirth,IDNumber,PatientGender,PatientAddress,PostalCode,PatientContactNumber,PatientEmailAddress,PatientEmployerCellNo,PatientOccupation,CreatedBy,UpdatedBy,CreatedDate,SpouseName,SpouseContactNo,UpdatedDate,isActive,isPatientStudent,School,Grade,Teacher,SchoolContactNo,FatherDetails,FathersName,FatherOccupation,FatherAddress,FatherWorkPhone,FatherCellPhone,FatherEmail,MotherDetails,MotherName,MotherOccupation,MotherAddress,MotherCellphone,MotherWorkPhone,MotherEmail,OtherDoctorDetails,FamilyDoctorName,FamilyDoctorInstitution,FamilyDoctorContactNo,PsychologistName,PsychologistInstitution,PsychologistContactNo,SocialWorkerName,SocialWorkerInstitution,SocialWorkerContactNo,OccupationalTherapist,OccupationalTherapistName,OccupationalTherapistInstitution,OccupationalTherapistContactNo")] Patient patient)
         {
             if (ModelState.IsValid)

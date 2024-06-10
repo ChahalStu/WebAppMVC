@@ -8,8 +8,9 @@
     Patients
     
 </h1>
-
-
+<p>
+    <button onclick="location.href='@Url.Action("Create", "Patients")'" class="btn btn-primary mb-2">Create New</button>
+</p>
 <div class="container">
     <form method="post" action="/Patients/Search">
         <div class="form-row row">
@@ -22,17 +23,17 @@
                 </select>
             </div>
             <div class="col-md-3">
-                <input type="text" class="form-control mb-2" id="searchTerm" name="searchTerm" placeholder="Enter search term" minlength="3" required />
+                <input type="text" class="form-control mb-2" id="searchTerm" name="searchTerm" placeholder="Enter search term" minlength="3" />
                 <small class="form-text text-muted"><strong>Minimum 3 characters required.</strong></small>
             </div>
             <div class="col-md-3">
                 <button type="submit" class="btn btn-primary mb-2">Search</button>
-            </div>
-            <div class="col-md-3" style="text-align: right;">
-                <button asp-action="Create" class="btn btn-primary mb-2">Create New</button>
-            </div>
+            </div>  
+            
         </div>
+        
     </form>
+    
 </div>
 
 
