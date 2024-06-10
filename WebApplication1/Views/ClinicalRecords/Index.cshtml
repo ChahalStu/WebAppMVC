@@ -7,8 +7,32 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <button onclick="location.href='@Url.Action("Create", "ClinicalRecords")'" class="btn btn-primary mb-2">Create New</button>
 </p>
+<div class="container">
+    <form method="post" action="/ClinicalRecords/Search">
+        <div class="form-row row">
+            <div class="col-md-3">
+                <select class="form-control mb-2" id="searchCriteria" name="searchCriteria">
+                    <option value="patientName">Patient Name</option>
+                    <option value="patientLastName">Patient Last Name</option>
+                    <option value="email">Email</option>
+                    <option value="contactNumber">Patient Contact Number</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <input type="text" class="form-control mb-2" id="searchTerm" name="searchTerm" placeholder="Enter search term" minlength="3" />
+                <small class="form-text text-muted"><strong>Minimum 3 characters required.</strong></small>
+            </div>
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-primary mb-2">Search</button>
+            </div>
+
+        </div>
+
+    </form>
+
+</div>
 <table class="table">
     <thead>
         <tr>

@@ -265,5 +265,32 @@ namespace WebApplication1.Controllers
            return RedirectToAction("Index");
           
         }
+
+        [HttpPost]
+        public IActionResult Search(string searchCriteria, string searchTerm)
+        {
+            IQueryable<ClinicalRecord> record = _context.ClinicalRecord;
+
+            switch (searchCriteria)
+            {
+                case "patientName":
+                    record = record.Where(p => p.Patient.PatientName.Contains(searchTerm));
+                    break;
+                case "patientLastName":
+                    record = record.Where(p => p.Patient.PatientLastName.Contains(searchTerm));
+                    break;
+                case "doctor":
+                    record = record.Where(p => p.DoctorID.ToString().Contains(searchTerm));
+                    break;
+                case "fileName":
+                    record = record.Where(p => p.FileName.Contains(searchTerm));
+                    break;
+                case "idNumber":
+                    record = record.Where(p => p.Patient.IDNumber.Contains(searchTerm));
+                    break;
+            }
+
+            return View("Index", record.ToList());
+        }
     }
 }

@@ -39,7 +39,10 @@ namespace WebApplication1.Controllers
                     break;
                 case "clinic":
                     patients = patients.Where(p => p.PatientContactNumber.Contains(searchTerm));
-                    break;               
+                    break;
+                case "idNumber":
+                    patients = patients.Where(p => p.IDNumber.Contains(searchTerm));
+                    break;
             }
 
             return View("Index", patients.ToList());
