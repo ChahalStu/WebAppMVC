@@ -81,7 +81,7 @@ namespace WebApplication1.Controllers
         [ValidateAntiForgeryToken]
 
 
-        public async Task<IActionResult> Create([Bind("ClinicalRecordID,FileName,Disorder,ClinicalContactCommenced,ClinicalContactTerminated,Date,RelevantInformation,CreatedBy,UpdatedBy,UpdatedDate,TutorEmailAddress,Clinician,AssessmentFindings,Referral,History,ClinicID,PatientID,DoctorID,FilePath")] IFormCollection form)
+        public async Task<IActionResult> Create( IFormCollection form)
         {   
             var clinicalRecord = ExtractFormValuesIntoModel(form);
             if (ModelState.IsValid)
