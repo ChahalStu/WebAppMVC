@@ -33,133 +33,140 @@
 
     </form>
 
-</div>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.FileName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Disorder)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ClinicalContactCommenced)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ClinicalContactTerminated)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Date)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RelevantInformation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreatedBy)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UpdatedBy)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UpdatedDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TutorEmailAddress)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Clinician)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AssessmentFindings)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Referral)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.History)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Clinic)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Patient)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FilePath)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DoctorID)
-            </th>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <div class="container">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FileName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Disorder)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ClinicalContactCommenced)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ClinicalContactTerminated)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Date)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.RelevantInformation)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CreatedBy)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.UpdatedBy)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.UpdatedDate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.TutorEmailAddress)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Clinician)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.AssessmentFindings)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Referral)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.History)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Clinic)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Patient)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FilePath)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DoctorID)
+                        </th>
 
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.FileName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Disorder)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ClinicalContactCommenced)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ClinicalContactTerminated)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Date)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RelevantInformation)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatedBy)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UpdatedBy)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UpdatedDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TutorEmailAddress)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Clinician)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AssessmentFindings)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Referral)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.History)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Clinic.ClinicID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Patient.PatientID)
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FileName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Disorder)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ClinicalContactCommenced)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ClinicalContactTerminated)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Date)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.RelevantInformation)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CreatedBy)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UpdatedBy)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UpdatedDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TutorEmailAddress)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Clinician)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.AssessmentFindings)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Referral)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.History)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Clinic.ClinicID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Patient.PatientID)
 
-            </td>
-                <td>
-                    <a href="@item.FilePath" download>Download Document</a>
-                </td>
-            <td>
-                <td>
-                        @Html.DisplayFor(modelItem => item.Doctor.DoctorID)
-                </td>
-
-                <a asp-action="Edit" asp-route-id="@item.ClinicalRecordID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ClinicalRecordID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ClinicalRecordID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+                            </td>
+                            <td>
+                                <a href="@item.FilePath" download>Download Document</a>
+                            </td>
+                            <td>
+                            <td>
+                                    @Html.DisplayFor(modelItem => item.Doctor.DoctorID)
+                            </td>
+                            <td>
+                            <a asp-action="Edit" asp-route-id="@item.ClinicalRecordID">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.ClinicalRecordID">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.ClinicalRecordID">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>

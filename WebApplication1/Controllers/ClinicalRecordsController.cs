@@ -62,7 +62,34 @@ namespace WebApplication1.Controllers
 
             return View(clinicalRecord);
         }
+        [HttpGet]
+        public IActionResult AutoSearch(string searchTerm)
+        {
+            // Perform search based on the searchTerm and retrieve filtered data
+            var filteredData = GetFilteredData(searchTerm);
 
+            // Transform filtered data into SelectListItem format
+            var selectListItems = filteredData.Select(item => new SelectListItem
+            {
+                Value = item.DoctorID.ToString(),
+                Text = item.DoctorName
+            });
+
+            return Json(selectListItems);
+        }
+        public List<Doctor> GetFilteredData(string searchTerm)
+        {
+            List<Doctor> doctors = _context.Doctor.ToList();
+
+            // Filter the list based on the searchTerm
+            if (!string.IsNullOrEmpty(searchTerm))
+            {
+                searchTerm = searchTerm.ToLower(); // Convert searchTerm to lowercase for case-insensitive comparison
+                doctors = doctors.Where(d => d.DoctorName.ToLower().Contains(searchTerm)).ToList();
+            }
+
+            return doctors;
+        }
         // GET: ClinicalRecords/Create /// need to make the role names work
         [Authorize]
         public IActionResult Create()
