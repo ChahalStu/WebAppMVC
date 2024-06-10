@@ -18,11 +18,11 @@
             public string? PatientOccupation { get; set; }
             public string? CreatedBy { get; set; }
             public string? UpdatedBy { get; set; }
-            public DateTime CreatedDate { get; set; }
-            public string? SpouseName { get; set; }
+            public DateTime CreatedDate { get; set; } = DateTime.Now;
+        public string? SpouseName { get; set; }
             public string? SpouseContactNo { get; set; }
-            public DateTime UpdatedDate { get; set; }
-            public bool isActive { get; set; }
+            public DateTime UpdatedDate { get; set; } = DateTime.Now;
+        public bool isActive { get; set; }
             public bool isPatientStudent { get; set; }
             public string? School { get; set; }
             public string? Grade { get; set; }

@@ -69,6 +69,8 @@ namespace WebApplication1.Controllers
         {
             ViewData["ClinicID"] = new SelectList(_context.Set<Clinic>(), "ClinicID", "ClinicID");
             ViewData["PatientID"] = new SelectList(_context.Patient, "PatientID", "PatientID");
+
+            ViewData["DoctorID"] = new SelectList(_context.Doctor, "DoctorID", "DoctorID");
             return View();
         }
 
@@ -79,7 +81,7 @@ namespace WebApplication1.Controllers
         [ValidateAntiForgeryToken]
 
 
-        public async Task<IActionResult> Create([Bind("ClinicalRecordID,FileName,Disorder,ClinicalContactCommenced,ClinicalContactTerminated,Date,RelevantInformation,CreatedBy,UpdatedBy,UpdatedDate,TutorEmailAddress,Clinician,AssessmentFindings,Referral,History,ClinicID,PatientID,FilePath")] IFormCollection form)
+        public async Task<IActionResult> Create([Bind("ClinicalRecordID,FileName,Disorder,ClinicalContactCommenced,ClinicalContactTerminated,Date,RelevantInformation,CreatedBy,UpdatedBy,UpdatedDate,TutorEmailAddress,Clinician,AssessmentFindings,Referral,History,ClinicID,PatientID,DoctorID,FilePath")] IFormCollection form)
         {   
             var clinicalRecord = ExtractFormValuesIntoModel(form);
             if (ModelState.IsValid)
@@ -93,6 +95,7 @@ namespace WebApplication1.Controllers
             }
             ViewData["ClinicID"] = new SelectList(_context.Set<Clinic>(), "ClinicID", "ClinicID", clinicalRecord.ClinicID);
             ViewData["PatientID"] = new SelectList(_context.Patient, "PatientID", "PatientID", clinicalRecord.PatientID);
+            ViewData["DoctorID"] = new SelectList(_context.Doctor, "DoctorID", "DoctorID", clinicalRecord.DoctorID);
             return View(clinicalRecord);
         }
 
@@ -127,6 +130,7 @@ namespace WebApplication1.Controllers
                 History = form["History"],
                 ClinicID = int.Parse(form["ClinicID"]),
                 PatientID = int.Parse(form["PatientID"]),
+                DoctorID = int.Parse(form["DoctorID"]),
                 FilePath= form["FilePath"]
             };
 
@@ -157,6 +161,7 @@ namespace WebApplication1.Controllers
             }
             ViewData["ClinicID"] = new SelectList(_context.Set<Clinic>(), "ClinicID", "ClinicID", clinicalRecord.ClinicID);
             ViewData["PatientID"] = new SelectList(_context.Patient, "PatientID", "PatientID", clinicalRecord.PatientID);
+            ViewData["DoctorID"] = new SelectList(_context.Doctor, "DoctorID", "DoctorID", clinicalRecord.DoctorID);
             return View(clinicalRecord);
         }
 
@@ -165,7 +170,7 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ClinicalRecordID,FileName,Disorder,ClinicalContactCommenced,ClinicalContactTerminated,Date,RelevantInformation,CreatedBy,UpdatedBy,UpdatedDate,TutorEmailAddress,Clinician,AssessmentFindings,Referral,History,ClinicID,PatientID")] ClinicalRecord clinicalRecord)
+        public async Task<IActionResult> Edit(int id, [Bind("ClinicalRecordID,FileName,Disorder,ClinicalContactCommenced,ClinicalContactTerminated,Date,RelevantInformation,CreatedBy,UpdatedBy,UpdatedDate,TutorEmailAddress,Clinician,AssessmentFindings,Referral,History,ClinicID,PatientID,DoctorID")] ClinicalRecord clinicalRecord)
         {
             if (id != clinicalRecord.ClinicalRecordID)
             {
@@ -194,6 +199,7 @@ namespace WebApplication1.Controllers
             }
             ViewData["ClinicID"] = new SelectList(_context.Set<Clinic>(), "ClinicID", "ClinicID", clinicalRecord.ClinicID);
             ViewData["PatientID"] = new SelectList(_context.Patient, "PatientID", "PatientID", clinicalRecord.PatientID);
+            ViewData["DoctorID"] = new SelectList(_context.Doctor, "DoctorID", "DoctorID", clinicalRecord.DoctorID);
             return View(clinicalRecord);
         }
 

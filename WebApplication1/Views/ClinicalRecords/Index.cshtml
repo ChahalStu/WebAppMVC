@@ -63,6 +63,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.FilePath)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorID)
+            </th>
 
             <th></th>
         </tr>
@@ -123,6 +126,10 @@
                     <a href="@item.FilePath" download>Download Document</a>
                 </td>
             <td>
+                <td>
+                        @Html.DisplayFor(modelItem => item.Doctor.DoctorID)
+                </td>
+
                 <a asp-action="Edit" asp-route-id="@item.ClinicalRecordID">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.ClinicalRecordID">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.ClinicalRecordID">Delete</a>
