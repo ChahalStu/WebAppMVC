@@ -64,9 +64,13 @@ namespace WebApplication1.Controllers
 
             return View(patient);
         }
-
         [HttpGet]
-        public async Task<IActionResult> Create([Bind("PatientID,PatientName,PatientLastName,PatientDateOfBirth,IDNumber,PatientGender,PatientAddress,PostalCode,PatientContactNumber,PatientEmailAddress,PatientEmployerCellNo,PatientOccupation,CreatedBy,UpdatedBy,CreatedDate,SpouseName,SpouseContactNo,UpdatedDate,isActive,isPatientStudent,School,Grade,Teacher,SchoolContactNo,FatherDetails,FathersName,FatherOccupation,FatherAddress,FatherWorkPhone,FatherCellPhone,FatherEmail,MotherDetails,MotherName,MotherOccupation,MotherAddress,MotherCellphone,MotherWorkPhone,MotherEmail,OtherDoctorDetails,FamilyDoctorName,FamilyDoctorInstitution,FamilyDoctorContactNo,PsychologistName,PsychologistInstitution,PsychologistContactNo,SocialWorkerName,SocialWorkerInstitution,SocialWorkerContactNo,OccupationalTherapist,OccupationalTherapistName,OccupationalTherapistInstitution,OccupationalTherapistContactNo")] Patient patient)
+        public async Task<IActionResult> Create()
+        {
+            return View("Create");
+        }
+        [HttpPost]
+        public async Task<IActionResult> Create(Patient patient)
         {
             if (ModelState.IsValid)
             {
