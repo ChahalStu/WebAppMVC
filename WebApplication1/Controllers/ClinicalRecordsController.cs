@@ -67,10 +67,10 @@ namespace WebApplication1.Controllers
         [Authorize]
         public IActionResult Create()
         {
-            ViewData["ClinicID"] = new SelectList(_context.Set<Clinic>(), "ClinicID", "ClinicID");
-            ViewData["PatientID"] = new SelectList(_context.Patient, "PatientID", "PatientID");
+            ViewData["ClinicName"] = new SelectList(_context.Set<Clinic>(), "ClinicName", "ClinicName");
+            ViewData["PatientName"] = new SelectList(_context.Patient, "PatientName", "PatientName");
 
-            ViewData["DoctorID"] = new SelectList(_context.Doctor, "DoctorID", "DoctorID");
+            ViewData["DoctorName"] = new SelectList(_context.Doctor, "DoctorName", "DoctorName");
             return View();
         }
 
