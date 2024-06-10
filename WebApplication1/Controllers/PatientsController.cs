@@ -24,7 +24,12 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public IActionResult Search(string searchCriteria, string searchTerm)
         {
-            IQueryable<Patient> patients = _context.Patient; 
+            IQueryable<Patient> patients = _context.Patient;
+
+            if (string.IsNullOrEmpty(searchTerm))
+            {
+                return View("Index", patients.ToList());
+            }
 
             switch (searchCriteria)
             {

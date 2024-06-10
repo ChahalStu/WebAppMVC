@@ -297,7 +297,10 @@ namespace WebApplication1.Controllers
         public IActionResult Search(string searchCriteria, string searchTerm)
         {
             IQueryable<ClinicalRecord> record = _context.ClinicalRecord;
-
+            if (string.IsNullOrEmpty(searchTerm))
+            {
+                return View("Index", record.ToList());
+            }
             switch (searchCriteria)
             {
                 case "patientName":
