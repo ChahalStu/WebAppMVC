@@ -52,10 +52,6 @@ using (var scope = app.Services.CreateScope())
             await roleManager.CreateAsync(new IdentityRole(role));
     
     }
-
-
-
-
 }
 //create admin acc with admin roles 
 

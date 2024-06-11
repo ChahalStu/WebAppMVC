@@ -100,7 +100,7 @@ namespace WebApplication1.Controllers
             ViewData["ClinicID"] = new SelectList(_context.Set<Clinic>(), "ClinicID", "ClinicID");
             ViewData["PatientID"] = new SelectList(_context.Patient, "PatientID", "PatientID");
 
-            ViewData["DoctorID"] = new SelectList(_context.Doctor, "DoctorID", "DoctorID");
+            ViewData["DoctorName"] = new SelectList(_context.Doctor, "DoctorName", "DoctorName");
             return View();
         }
 
@@ -114,6 +114,7 @@ namespace WebApplication1.Controllers
         public async Task<IActionResult> Create( IFormCollection form)
         {   
             var clinicalRecord = ExtractFormValuesIntoModel(form);
+            var doctorId = _context.FindAsync<Doctor>(clinicalRecord.Doctor.DoctorName);
             if (ModelState.IsValid)
             {
                 BlobClient blobClient = await UploadFileToBlobStorage(form);
@@ -125,7 +126,7 @@ namespace WebApplication1.Controllers
             }
             ViewData["ClinicID"] = new SelectList(_context.Set<Clinic>(), "ClinicID", "ClinicID", clinicalRecord.ClinicID);
             ViewData["PatientID"] = new SelectList(_context.Patient, "PatientID", "PatientID", clinicalRecord.PatientID);
-            ViewData["DoctorID"] = new SelectList(_context.Doctor, "DoctorID", "DoctorID", clinicalRecord.DoctorID);
+            ViewData["DoctorName"] = new SelectList(_context.Doctor, "DoctorName", "DoctorName", clinicalRecord.Doctor.DoctorName);
             return View(clinicalRecord);
         }
 
@@ -160,7 +161,7 @@ namespace WebApplication1.Controllers
                 History = form["History"],
                 ClinicID = int.Parse(form["ClinicID"]),
                 PatientID = int.Parse(form["PatientID"]),
-                DoctorID = int.Parse(form["DoctorID"]),
+                DoctorName = form["DoctorName"],
                 FilePath= form["FilePath"]
             };
 
