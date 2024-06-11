@@ -31,5 +31,10 @@ namespace WebApplication1.Models
         public Patient Patient { get; set; }
 
         public Doctor Doctor { get; set; } 
+
+        public string ? DoctorName { get; set; }
+        public string? PatientName { get; set; }
+        public string? ClinicName { get; set; }
+
     }
 }
