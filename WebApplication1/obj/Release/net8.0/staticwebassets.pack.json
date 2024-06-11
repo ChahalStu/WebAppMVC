@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\wwwroot\\images\\HospitalManagementSystem.jpg",
+      "PackagePath": "staticwebassets\\images\\HospitalManagementSystem.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\wwwroot\\images\\UKZNLogo.png",
+      "PackagePath": "staticwebassets\\images\\UKZNLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\wwwroot\\images\\doctor-from-future-concept.jpg",
+      "PackagePath": "staticwebassets\\images\\doctor-from-future-concept.jpg"
+    },
+    {
       "Id": "C:\\Users\\chaha\\OneDrive\\Desktop\\Final\\WebAppMVC\\WebApplication1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
