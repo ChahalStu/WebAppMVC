@@ -84,6 +84,7 @@ namespace WebApplication1.Controllers
         {
             List<Doctor> doctors = _context.Doctor.ToList();
 
+
             // Filter the list based on the searchTerm
             if (!string.IsNullOrEmpty(searchTerm))
             {
