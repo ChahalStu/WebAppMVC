@@ -46,12 +46,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="CreatedBy" class="control-label"></label>
-                <input asp-for="CreatedBy" class="form-control" />
+                <input asp-for="CreatedBy" value="@ViewBag.LoggedInUser" class="form-control" />
                 <span asp-validation-for="CreatedBy" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="UpdatedBy" class="control-label"></label>
-                <input asp-for="UpdatedBy" class="form-control" />
+                <input asp-for="UpdatedBy" value="@ViewBag.LoggedInUser" class="form-control" />
                 <span asp-validation-for="UpdatedBy" class="text-danger"></span>
             </div>
   
@@ -81,16 +81,20 @@
                 <span asp-validation-for="History" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Clinic.ClinicName" class="control-label"></label>
-                <select asp-for="ClinicID" class="form-control" asp-items="ViewBag.ClinicName"></select>
+                <label asp-for="ClinicID" class="control-label"></label>
+                <select id="ClinicID" class="form-control" asp-for="ClinicID" asp-items="ViewBag.ClinicID">
+                    <option value="">Select a Clinic</option> <!-- Empty option for auto-search -->
+                </select>
             </div>
             <div class="form-group">
-                <label asp-for="Patient.PatientName" class="control-label"></label>
-                <select asp-for="PatientID" class="form-control" asp-items="ViewBag.PatientName"></select>
+                <label asp-for="PatientID" class="control-label"></label>
+                <select id="PatientID" class="form-control" asp-for="PatientID" asp-items="ViewBag.PatientID">
+                    <option value="">Select a Patient</option> <!-- Empty option for auto-search -->
+                </select>
             </div>
             <div class="form-group">
                 <label asp-for="DoctorID" class="control-label"></label>
-                <select id="DoctorID" class="form-control" asp-for="DoctorID" asp-items="ViewBag.DoctorName">
+                <select id="DoctorID" class="form-control"asp-for="DoctorID" asp-items="ViewBag.DoctorId">
                     <option value="">Select a Doctor</option> <!-- Empty option for auto-search -->
                 </select>
             </div>

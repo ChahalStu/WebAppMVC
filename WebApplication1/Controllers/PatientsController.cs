@@ -75,6 +75,8 @@ namespace WebApplication1.Controllers
         [HttpGet]
         public async Task<IActionResult> Create()
         {
+            var user = await _userManager.GetUserAsync(User);
+            ViewData["LoggedInUser"] = user.UserName;
             return View("Create");
         }
         [HttpPost]
@@ -89,6 +91,7 @@ namespace WebApplication1.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["LoggedInUser"] = user.UserName;
             return View(patient);
         }
 
