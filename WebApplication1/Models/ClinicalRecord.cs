@@ -24,7 +24,7 @@ namespace WebApplication1.Models
         public int ClinicID { get; set; }
         public int PatientID { get; set; }
 
-        public int ? DoctorID { get; set; } = 1;
+        public int ? DoctorID { get; set; } 
 
         // Relationships
         public Clinic Clinic { get; set; }
