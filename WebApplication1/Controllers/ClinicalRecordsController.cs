@@ -66,10 +66,10 @@ namespace WebApplication1.Controllers
             return View(clinicalRecord);
         }
         [HttpGet]
-        public IActionResult AutoSearch(string searchTerm)
+        public IActionResult AutoSearchDoctor(string searchTerm)
         {
             // Perform search based on the searchTerm and retrieve filtered data
-            var filteredData = GetFilteredData(searchTerm);
+            var filteredData = GetFilteredDoctorData(searchTerm);
 
             // Transform filtered data into SelectListItem format
             var selectListItems = filteredData.Select(item => new SelectListItem
@@ -80,7 +80,37 @@ namespace WebApplication1.Controllers
 
             return Json(selectListItems);
         }
-        public List<Doctor> GetFilteredData(string searchTerm)
+        [HttpGet]
+        public IActionResult AutoSearchPatient(string searchTerm)
+        {
+            // Perform search based on the searchTerm and retrieve filtered data
+            var filteredData = GetFilteredPatientData(searchTerm);
+
+            // Transform filtered data into SelectListItem format
+            var selectListItems = filteredData.Select(item => new SelectListItem
+            {
+                Value = item.PatientID.ToString(),
+                Text = item.PatientName
+            });
+
+            return Json(selectListItems);
+        }
+        [HttpGet]
+        public IActionResult AutoSearchClinic(string searchTerm)
+        {
+            // Perform search based on the searchTerm and retrieve filtered data
+            var filteredData = GetFilteredClinicData(searchTerm);
+
+            // Transform filtered data into SelectListItem format
+            var selectListItems = filteredData.Select(item => new SelectListItem
+            {
+                Value = item.ClinicID.ToString(),
+                Text = item.ClinicName
+            });
+
+            return Json(selectListItems);
+        }
+        public List<Doctor> GetFilteredDoctorData(string searchTerm)
         {
             List<Doctor> doctors = _context.Doctor.ToList();
 
@@ -94,14 +124,44 @@ namespace WebApplication1.Controllers
 
             return doctors;
         }
+        public List<Patient> GetFilteredPatientData(string searchTerm)
+        {
+            List<Patient> patients = _context.Patient.ToList();
+
+
+            // Filter the list based on the searchTerm
+            if (!string.IsNullOrEmpty(searchTerm))
+            {
+                searchTerm = searchTerm.ToLower(); // Convert searchTerm to lowercase for case-insensitive comparison
+                patients = patients.Where(d => d.PatientName.ToLower().Contains(searchTerm)).ToList();
+            }
+
+            return patients;
+        }
+        public List<Clinic> GetFilteredClinicData(string searchTerm)
+        {
+            List<Clinic> clinics = _context.Clinic.ToList();
+
+
+            // Filter the list based on the searchTerm
+            if (!string.IsNullOrEmpty(searchTerm))
+            {
+                searchTerm = searchTerm.ToLower(); // Convert searchTerm to lowercase for case-insensitive comparison
+                clinics = clinics.Where(d => d.ClinicName.ToLower().Contains(searchTerm)).ToList();
+            }
+
+            return clinics;
+        }
         // GET: ClinicalRecords/Create /// need to make the role names work
         [Authorize]
-        public IActionResult Create()
+        public async Task<IActionResult>  Create()
         {
-            ViewData["ClinicID"] = new SelectList(_context.Set<Clinic>(), "ClinicID", "ClinicID");
-            ViewData["PatientID"] = new SelectList(_context.Patient, "PatientID", "PatientID");
+            ViewData["ClinicName"] = new SelectList(_context.Set<Clinic>(), "ClinicName", "ClinicName");
+            ViewData["PatientName"] = new SelectList(_context.Patient, "PatientName", "PatientName");
 
             ViewData["DoctorName"] = new SelectList(_context.Doctor, "DoctorName", "DoctorName");
+            var user = await _userManager.GetUserAsync(User);
+            ViewData["LoggedInUser"] = user.UserName;
             return View();
         }
 
@@ -115,7 +175,7 @@ namespace WebApplication1.Controllers
         public async Task<IActionResult> Create( IFormCollection form)
         {   
             var clinicalRecord = ExtractFormValuesIntoModel(form);
-            var doctorId = _context.FindAsync<Doctor>(clinicalRecord.Doctor.DoctorName);
+            
             if (ModelState.IsValid)
             {
                 BlobClient blobClient = await UploadFileToBlobStorage(form);
@@ -125,9 +185,13 @@ namespace WebApplication1.Controllers
 
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ClinicID"] = new SelectList(_context.Set<Clinic>(), "ClinicID", "ClinicID", clinicalRecord.ClinicID);
-            ViewData["PatientID"] = new SelectList(_context.Patient, "PatientID", "PatientID", clinicalRecord.PatientID);
+            List<Doctor> doctors = _context.Doctor.ToList();
+            var doctorId = doctors.Find(d => d.DoctorName.ToLowerInvariant().Equals(clinicalRecord.DoctorName.ToLowerInvariant)).DoctorID;
+            ViewData["ClinicName"] = new SelectList(_context.Set<Clinic>(), "ClinicName", "ClinicName", clinicalRecord.ClinicID);
+            ViewData["PatientName"] = new SelectList(_context.Patient, "PatientName", "PatientName", clinicalRecord.PatientName);
             ViewData["DoctorName"] = new SelectList(_context.Doctor, "DoctorName", "DoctorName", clinicalRecord.Doctor.DoctorName);
+            var user = await _userManager.GetUserAsync(User);
+            ViewData["LoggedInUser"] = user.UserName;
             return View(clinicalRecord);
         }
 

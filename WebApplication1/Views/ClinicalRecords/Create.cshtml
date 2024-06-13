@@ -81,14 +81,14 @@
                 <span asp-validation-for="History" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ClinicID" class="control-label"></label>
-                <select id="ClinicID" class="form-control" asp-for="ClinicID" asp-items="ViewBag.ClinicID">
+                <label asp-for="ClinicName" class="control-label"></label>
+                <select id="ClinicName" class="form-control" asp-for="ClinicName" asp-items="ViewBag.ClinicName">
                     <option value="">Select a Clinic</option> <!-- Empty option for auto-search -->
                 </select>
             </div>
             <div class="form-group">
-                <label asp-for="PatientID" class="control-label"></label>
-                <select id="PatientID" class="form-control" asp-for="PatientID" asp-items="ViewBag.PatientID">
+                <label asp-for="PatientName" class="control-label"></label>
+                <select id="PatientName" class="form-control" asp-for="PatientName" asp-items="ViewBag.PatientName">
                     <option value="">Select a Patient</option> <!-- Empty option for auto-search -->
                 </select>
             </div>
@@ -127,16 +127,44 @@
 }
 <script>
     $(document).ready(function () {
-        $('#DoctorID').on('keyup', function () {
+        $('#DoctorName').on('keyup', function () {
             var searchTerm = $(this).val();
             $.ajax({
-                url: '/ClinicalRecords/AutoSearch',
+                url: '/ClinicalRecords/AutoSearchDoctor',
                 type: 'GET',
                 data: { searchTerm: searchTerm },
                 success: function (data) {
                     $('#DoctorID').empty(); // Clear existing options
                     $.each(data, function (index, item) {
                         $('#DoctorID').append($('<option>').text(item.text).attr('value', item.value));
+                    });
+                }
+            });
+        });
+        $('#PatientName').on('keyup', function () {
+            var searchTerm = $(this).val();
+            $.ajax({
+                url: '/ClinicalRecords/AutoSearchPatient',
+                type: 'GET',
+                data: { searchTerm: searchTerm },
+                success: function (data) {
+                    $('#PatientName').empty(); // Clear existing options
+                    $.each(data, function (index, item) {
+                        $('#PatientName').append($('<option>').text(item.text).attr('value', item.value));
+                    });
+                }
+            });
+        });
+        $('#ClinicName').on('keyup', function () {
+            var searchTerm = $(this).val();
+            $.ajax({
+                url: '/ClinicalRecords/AutoSearchClinic',
+                type: 'GET',
+                data: { searchTerm: searchTerm },
+                success: function (data) {
+                    $('#ClinicName').empty(); // Clear existing options
+                    $.each(data, function (index, item) {
+                        $('#ClinicName').append($('<option>').text(item.text).attr('value', item.value));
                     });
                 }
             });
