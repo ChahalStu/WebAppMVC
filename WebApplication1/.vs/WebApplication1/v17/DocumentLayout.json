@@ -213,8 +213,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -248,7 +252,7 @@
               "RelativeDocumentMoniker": "Controllers\\ClinicalRecordsController.cs",
               "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\ClinicalRecordsController.cs",
               "RelativeToolTip": "Controllers\\ClinicalRecordsController.cs",
-              "ViewState": "AQIAAKkAAAAAAAAAAAAkwLIAAAAjAAAA",
+              "ViewState": "AQIAALkAAAAAAAAAAAAtwMYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T16:29:13.363Z",
               "EditorCaption": ""

@@ -184,9 +184,17 @@ namespace WebApplication1.Controllers
                 clinicalRecord.DoctorID = doctors.Find(d => d.DoctorName.ToLowerInvariant().Equals(clinicalRecord.DoctorName.ToLowerInvariant())).DoctorID;
                 clinicalRecord.ClinicID = clinics.Find(d => d.ClinicName.ToLowerInvariant().Equals(clinicalRecord.ClinicName.ToLowerInvariant())).ClinicID;
                 clinicalRecord.PatientID = patients.Find(d => d.PatientName.ToLowerInvariant().Equals(clinicalRecord.PatientName.ToLowerInvariant())).PatientID;
-
+                
                 BlobClient blobClient = await UploadFileToBlobStorage(form);
-                clinicalRecord.FilePath = blobClient.Uri.ToString();
+                if (blobClient == null) 
+                {
+                    clinicalRecord.FilePath = "";
+                }
+                else
+                {
+                    clinicalRecord.FilePath = blobClient.Uri.ToString();
+                }                                           
+                
                 _context.Add(clinicalRecord);
                 await _context.SaveChangesAsync();
 
@@ -204,11 +212,15 @@ namespace WebApplication1.Controllers
         private async Task<BlobClient> UploadFileToBlobStorage(IFormCollection form)
         {
             var file = form.Files["Upload"];
-            
-            BlobServiceClient blobServiceClient = new BlobServiceClient(_azureBlobStorageConnectionString);
-            BlobContainerClient containerClient = blobServiceClient.GetBlobContainerClient(_blobContainerName);
-            BlobClient blobClient = containerClient.GetBlobClient(file.FileName);
-            await blobClient.UploadAsync(file.OpenReadStream(), true);
+            BlobClient blobClient = null;
+            if (file != null) 
+            {
+                BlobServiceClient blobServiceClient = new BlobServiceClient(_azureBlobStorageConnectionString);
+                BlobContainerClient containerClient = blobServiceClient.GetBlobContainerClient(_blobContainerName);
+                blobClient = containerClient.GetBlobClient(file.FileName);
+                await blobClient.UploadAsync(file.OpenReadStream(), true);
+                return blobClient;
+            }
             return blobClient;
         }
 
