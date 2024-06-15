@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\controllers\\clinicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:controllers\\clinicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\views\\clinicalrecords\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\clinicalrecords\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\controllers\\clinicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:controllers\\clinicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -41,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{800D1F91-B3F8-481E-845D-828A59B06376}|WebApplication1.csproj|c:\\users\\lerusha\\documents\\chahal\\webappmvc\\webapplication1\\controllers\\clinicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -216,12 +216,8 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
@@ -229,50 +225,50 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAQwCIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T17:31:17.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T17:31:17.222Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\ClinicalRecords\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\ClinicalRecords\\Create.cshtml",
               "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\ClinicalRecords\\Create.cshtml",
               "RelativeToolTip": "Views\\ClinicalRecords\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-04T20:13:30.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ClinicalRecordsController.cs",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\ClinicalRecordsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClinicalRecordsController.cs",
               "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\ClinicalRecordsController.cs",
               "RelativeToolTip": "Controllers\\ClinicalRecordsController.cs",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAIwJkAAAAJAAAA",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAkwLIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T16:29:13.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAD4vygAAAA3AAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAD4vy4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T08:14:41.175Z"
+              "WhenOpened": "2024-06-10T08:14:41.175Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "PatientsController.cs",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\PatientsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PatientsController.cs",
@@ -285,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "DoctorsController.cs",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Controllers\\DoctorsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DoctorsController.cs",
@@ -293,12 +289,11 @@
               "RelativeToolTip": "Controllers\\DoctorsController.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAD4vw4AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:49:25.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T16:49:25.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ClinicalRecord.cs",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Models\\ClinicalRecord.cs",
               "RelativeDocumentMoniker": "Models\\ClinicalRecord.cs",
@@ -306,12 +301,11 @@
               "RelativeToolTip": "Models\\ClinicalRecord.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAIwCQAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T15:28:13.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T15:28:13.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -319,20 +313,20 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T12:15:56.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:15:56.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-10T16:47:28.649Z"
+              "WhenOpened": "2024-06-10T16:47:28.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -348,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
@@ -356,12 +350,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "ViewState": "AQIAAAgAAAAAAAAAAAAuwBgAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T08:51:56.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T08:51:56.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -369,12 +362,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ViewState": "AQIAAEYAAAAAAAAAAAAuwFYAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T17:13:44.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T17:13:44.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Lerusha\\Documents\\Chahal\\WebAppMVC\\WebApplication1\\Views\\Patients\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Patients\\Create.cshtml",
@@ -382,8 +374,7 @@
               "RelativeToolTip": "Views\\Patients\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADcBAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T09:32:39.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T09:32:39.571Z"
             },
             {
               "$type": "Document",

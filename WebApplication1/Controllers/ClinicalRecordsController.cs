@@ -175,9 +175,16 @@ namespace WebApplication1.Controllers
         public async Task<IActionResult> Create( IFormCollection form)
         {   
             var clinicalRecord = ExtractFormValuesIntoModel(form);
-            
+ 
             if (ModelState.IsValid)
             {
+                List<Doctor> doctors = _context.Doctor.ToList();
+                List<Clinic> clinics = _context.Clinic.ToList();
+                List<Patient> patients = _context.Patient.ToList();
+                clinicalRecord.DoctorID = doctors.Find(d => d.DoctorName.ToLowerInvariant().Equals(clinicalRecord.DoctorName.ToLowerInvariant())).DoctorID;
+                clinicalRecord.ClinicID = clinics.Find(d => d.ClinicName.ToLowerInvariant().Equals(clinicalRecord.ClinicName.ToLowerInvariant())).ClinicID;
+                clinicalRecord.PatientID = patients.Find(d => d.PatientName.ToLowerInvariant().Equals(clinicalRecord.PatientName.ToLowerInvariant())).PatientID;
+
                 BlobClient blobClient = await UploadFileToBlobStorage(form);
                 clinicalRecord.FilePath = blobClient.Uri.ToString();
                 _context.Add(clinicalRecord);
@@ -185,8 +192,7 @@ namespace WebApplication1.Controllers
 
                 return RedirectToAction(nameof(Index));
             }
-            List<Doctor> doctors = _context.Doctor.ToList();
-            var doctorId = doctors.Find(d => d.DoctorName.ToLowerInvariant().Equals(clinicalRecord.DoctorName.ToLowerInvariant)).DoctorID;
+            
             ViewData["ClinicName"] = new SelectList(_context.Set<Clinic>(), "ClinicName", "ClinicName", clinicalRecord.ClinicID);
             ViewData["PatientName"] = new SelectList(_context.Patient, "PatientName", "PatientName", clinicalRecord.PatientName);
             ViewData["DoctorName"] = new SelectList(_context.Doctor, "DoctorName", "DoctorName", clinicalRecord.Doctor.DoctorName);
