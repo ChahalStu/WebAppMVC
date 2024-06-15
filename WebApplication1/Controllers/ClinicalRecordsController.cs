@@ -224,8 +224,8 @@ namespace WebApplication1.Controllers
                 AssessmentFindings = form["AssessmentFindings"],
                 Referral = form["Referral"],
                 History = form["History"],
-                ClinicID = int.Parse(form["ClinicID"]),
-                PatientID = int.Parse(form["PatientID"]),
+                ClinicName = form["ClinicName"],
+                PatientName =  form["PatientName"],
                 DoctorName = form["DoctorName"],
                 FilePath= form["FilePath"]
             };
