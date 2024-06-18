@@ -4,10 +4,10 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Clinical Records</h1>
 
 <p>
-    <button onclick="location.href='@Url.Action("Create", "ClinicalRecords")'" class="btn btn-primary mb-2">Create New</button>
+    <button onclick="location.href='@Url.Action("Create", "ClinicalRecords")'" class="btn btn-primary mb-2">Create a New Clinical Record </button>
 </p>
 <div class="container">
     <form method="post" action="/ClinicalRecords/Search">
@@ -36,44 +36,47 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <p></p>
     <div class="container">
         <div class="table-responsive">
             <table class="table">
                 <thead>
                     <tr>
                         <th>
-                            @Html.DisplayNameFor(model => model.FileName)
+                            
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.Disorder)
+                      File Name
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.ClinicalContactCommenced)
+                           Disorder 
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.ClinicalContactTerminated)
+                          Clinical Contact Start Date 
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.Date)
+                           Date od Contact Termination
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.RelevantInformation)
+                           Record Created Date
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.CreatedBy)
+                           Relevant Information
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.UpdatedBy)
+                           Created By 
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.UpdatedDate)
+                           Updated By
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.TutorEmailAddress)
+                            Updated Date 
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.Clinician)
+                            Tutor Email Address 
                         </th>
+  
                         <th>
                             @Html.DisplayNameFor(model => model.AssessmentFindings)
                         </th>
@@ -83,18 +86,18 @@
                         <th>
                             @Html.DisplayNameFor(model => model.History)
                         </th>
-                        <th>
+   @*                      <th>
                             @Html.DisplayNameFor(model => model.Clinic)
                         </th>
                         <th>
                             @Html.DisplayNameFor(model => model.Patient)
-                        </th>
+                        </th> *@
                         <th>
-                            @Html.DisplayNameFor(model => model.FilePath)
+                          Document
                         </th>
-                        <th>
+      @*                   <th>
                             @Html.DisplayNameFor(model => model.DoctorID)
-                        </th>
+                        </th> *@
 
                         <th></th>
                     </tr>
@@ -103,6 +106,13 @@
                     @foreach (var item in Model)
                     {
                         <tr>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.ClinicalRecordID" class="btn btn-primary">Edit</a>
+                           
+                                <a asp-action="Details" asp-route-id="@item.ClinicalRecordID" class="btn btn-primary">Details</a>
+                        
+                                <a asp-action="Delete" asp-route-id="@item.ClinicalRecordID" class="btn btn-primary">Delete</a>
+                            </td>
                             <td>
                                 @Html.DisplayFor(modelItem => item.FileName)
                             </td>
@@ -133,9 +143,7 @@
                             <td>
                                 @Html.DisplayFor(modelItem => item.TutorEmailAddress)
                             </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Clinician)
-                            </td>
+                
                             <td>
                                 @Html.DisplayFor(modelItem => item.AssessmentFindings)
                             </td>
@@ -145,25 +153,19 @@
                             <td>
                                 @Html.DisplayFor(modelItem => item.History)
                             </td>
-                            <td>
+@*                             <td>
                                 @Html.DisplayFor(modelItem => item.Clinic.ClinicID)
                             </td>
                             <td>
                                 @Html.DisplayFor(modelItem => item.Patient.PatientID)
 
+                            </td> *@
+                            <td>
+                                <a href="@item.FilePath" download class="btn btn-primary">Download Document </a>
                             </td>
                             <td>
-                                <a href="@item.FilePath" download>Download Document</a>
-                            </td>
-                            <td>
-                            <td>
-                                    @Html.DisplayFor(modelItem => item.Doctor.DoctorID)
-                            </td>
-                            <td>
-                            <a asp-action="Edit" asp-route-id="@item.ClinicalRecordID">Edit</a> |
-                            <a asp-action="Details" asp-route-id="@item.ClinicalRecordID">Details</a> |
-                            <a asp-action="Delete" asp-route-id="@item.ClinicalRecordID">Delete</a>
-                            </td>
+            
+
                         </tr>
                     }
                 </tbody>

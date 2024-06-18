@@ -238,7 +238,7 @@ namespace WebApplication1.Controllers
                 UpdatedBy = form["UpdatedBy"],
                 UpdatedDate = DateTime.Today,
                 TutorEmailAddress = form["TutorEmailAddress"],
-                Clinician = form["Clinician"],
+                Clinician = "",
                 AssessmentFindings = form["AssessmentFindings"],
                 Referral = form["Referral"],
                 History = form["History"],

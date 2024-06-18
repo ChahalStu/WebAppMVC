@@ -4,72 +4,72 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Update Clinical Records</h1>
 
-<h4>ClinicalRecord</h4>
+ 
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-12">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="ClinicalRecordID" />
             <div class="form-group">
-                <label asp-for="FileName" class="control-label"></label>
+                <label asp-for="FileName" class="control-label">File Name</label>
                 <input asp-for="FileName" class="form-control" />
                 <span asp-validation-for="FileName" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Disorder" class="control-label"></label>
+                <label asp-for="Disorder" class="control-label">Disorder</label>
                 <input asp-for="Disorder" class="form-control" />
                 <span asp-validation-for="Disorder" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ClinicalContactCommenced" class="control-label"></label>
+                <label asp-for="ClinicalContactCommenced" class="control-label">Contact Commencement Date</label>
                 <input asp-for="ClinicalContactCommenced" class="form-control" />
                 <span asp-validation-for="ClinicalContactCommenced" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ClinicalContactTerminated" class="control-label"></label>
+                <label asp-for="ClinicalContactTerminated" class="control-label">Contact Termination Date</label>
                 <input asp-for="ClinicalContactTerminated" class="form-control" />
                 <span asp-validation-for="ClinicalContactTerminated" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Date" class="control-label"></label>
+                <label asp-for="Date" class="control-label">Recorded Date</label>
                 <input asp-for="Date" class="form-control" />
                 <span asp-validation-for="Date" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="RelevantInformation" class="control-label"></label>
+                <label asp-for="RelevantInformation" class="control-label">Relevant Information</label>
                 <input asp-for="RelevantInformation" class="form-control" />
                 <span asp-validation-for="RelevantInformation" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="CreatedBy" class="control-label"></label>
+                <label asp-for="CreatedBy" class="control-label">Created by</label>
                 <input asp-for="CreatedBy" class="form-control" />
                 <span asp-validation-for="CreatedBy" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="UpdatedBy" class="control-label"></label>
+                <label asp-for="UpdatedBy" class="control-label">Updated by</label>
                 <input asp-for="UpdatedBy" class="form-control" />
                 <span asp-validation-for="UpdatedBy" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="UpdatedDate" class="control-label"></label>
+                <label asp-for="UpdatedDate" class="control-label">Updated Date</label>
                 <input asp-for="UpdatedDate" class="form-control" />
                 <span asp-validation-for="UpdatedDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TutorEmailAddress" class="control-label"></label>
+                <label asp-for="TutorEmailAddress" class="control-label">Tutor Email Address</label>
                 <input asp-for="TutorEmailAddress" class="form-control" />
                 <span asp-validation-for="TutorEmailAddress" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Clinician" class="control-label"></label>
+@*             <div class="form-group">
+                <label asp-for="Clinician" class="control-label">Clinician</label>
                 <input asp-for="Clinician" class="form-control" />
                 <span asp-validation-for="Clinician" class="text-danger"></span>
-            </div>
+            </div> *@
             <div class="form-group">
-                <label asp-for="AssessmentFindings" class="control-label"></label>
+                <label asp-for="AssessmentFindings" class="control-label">Assessment Findings</label>
                 <input asp-for="AssessmentFindings" class="form-control" />
                 <span asp-validation-for="AssessmentFindings" class="text-danger"></span>
             </div>
@@ -83,7 +83,7 @@
                 <input asp-for="History" class="form-control" />
                 <span asp-validation-for="History" class="text-danger"></span>
             </div>
-            <div class="form-group">
+@*             <div class="form-group">
                 <label asp-for="ClinicID" class="control-label"></label>
                 <select asp-for="ClinicID" class="form-control" asp-items="ViewBag.ClinicID"></select>
                 <span asp-validation-for="ClinicID" class="text-danger"></span>
@@ -97,8 +97,8 @@
                 <label asp-for="DoctorID" class="control-label"></label>
                 <select asp-for="DoctorID" class="form-control" asp-items="ViewBag.DoctorID"></select>
                 <span asp-validation-for="DoctorID" class="text-danger"></span>
-            </div>
-
+            </div> *@
+            <br /> 
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>

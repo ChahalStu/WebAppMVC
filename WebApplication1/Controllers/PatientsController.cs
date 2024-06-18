@@ -80,6 +80,8 @@ namespace WebApplication1.Controllers
             return View("Create");
         }
         [HttpPost]
+
+ 
         public async Task<IActionResult> Create(Patient patient)
         {
             var user = await _userManager.GetUserAsync(User);

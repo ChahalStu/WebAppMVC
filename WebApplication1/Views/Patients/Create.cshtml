@@ -4,12 +4,12 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Add a new patient</h1>
+<h1>Record a new patient</h1>
 
 
 <hr />
 <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-12">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
@@ -189,7 +189,7 @@
             <div class="container border p-3 mb-3">
                 <div class="form-group form-check">
                     <label class="form-check-label">
-                        <input class="form-check-input" asp-for="isPatientStudent" /> Is the patient a student?)
+                        <input class="form-check-input" asp-for="isPatientStudent" /> Is the patient a student?
                     </label>
                 </div>
                 <br />
@@ -226,39 +226,46 @@
                     <input asp-for="SchoolContactNo" class="form-control" />
                     <span asp-validation-for="SchoolContactNo" class="text-danger"></span>
                 </div>
-
+                <br />
                 <div class="row">
+                    <br />
                     <div class="col-md-6">
                         <div class="form-group">
                             <label asp-for="FatherDetails" class="control-label"></label>
                             <input asp-for="FatherDetails" class="form-control" />
                             <span asp-validation-for="FatherDetails" class="text-danger"></span>
                         </div>
+                        <br />
                         <div class="form-group">
                             <label asp-for="FathersName" class="control-label"></label>
                             <input asp-for="FathersName" class="form-control" />
                             <span asp-validation-for="FathersName" class="text-danger"></span>
                         </div>
+                        <br />
                         <div class="form-group">
                             <label asp-for="FatherOccupation" class="control-label"></label>
                             <input asp-for="FatherOccupation" class="form-control" />
                             <span asp-validation-for="FatherOccupation" class="text-danger"></span>
                         </div>
+                        <br />
                         <div class="form-group">
                             <label asp-for="FatherAddress" class="control-label"></label>
                             <input asp-for="FatherAddress" class="form-control" />
                             <span asp-validation-for="FatherAddress" class="text-danger"></span>
                         </div>
+                        <br />
                         <div class="form-group">
                             <label asp-for="FatherWorkPhone" class="control-label"></label>
                             <input asp-for="FatherWorkPhone" class="form-control" />
                             <span asp-validation-for="FatherWorkPhone" class="text-danger"></span>
                         </div>
+                        <br />
                         <div class="form-group">
                             <label asp-for="FatherCellPhone" class="control-label"></label>
                             <input asp-for="FatherCellPhone" class="form-control" />
                             <span asp-validation-for="FatherCellPhone" class="text-danger"></span>
                         </div>
+                        <br />
                         <div class="form-group">
                             <label asp-for="FatherEmail" class="control-label"></label>
                             <input asp-for="FatherEmail" class="form-control" />
@@ -271,21 +278,25 @@
                             <input asp-for="MotherDetails" class="form-control" />
                             <span asp-validation-for="MotherDetails" class="text-danger"></span>
                         </div>
+                        <br />
                         <div class="form-group">
                             <label asp-for="MotherName" class="control-label"></label>
                             <input asp-for="MotherName" class="form-control" />
                             <span asp-validation-for="MotherName" class="text-danger"></span>
                         </div>
+                        <br />
                         <div class="form-group">
                             <label asp-for="MotherOccupation" class="control-label"></label>
                             <input asp-for="MotherOccupation" class="form-control" />
                             <span asp-validation-for="MotherOccupation" class="text-danger"></span>
                         </div>
+                        <br />
                         <div class="form-group">
                             <label asp-for="MotherAddress" class="control-label"></label>
                             <input asp-for="MotherAddress" class="form-control" />
                             <span asp-validation-for="MotherAddress" class="text-danger"></span>
                         </div>
+                        <br />
                         <div class="form-group">
                             <label asp-for="MotherCellphone" class="control-label">Mother's Contact Number</label>
                                 <input asp-for="MotherCellphone" class="form-control" />
@@ -328,9 +339,9 @@
         </form>
     </div>
 </div>
-
+<br />
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index" class="btn btn-primary">Back to List</a>
 </div>
 
 @section Scripts {

@@ -1,17 +1,76 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorizationService
+<!DOCTYPE html>
 <html>
 <head>
     <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
 
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: url('@Url.Content("~/images/HospitalManagementSystem.jpg")') no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            color: #ffffff;
+            padding: 20px;
+            padding-top: 60px; /* Adjust this value according to the height of your nav bar */
+        }
+
+        .content {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 3em;
+            color: #ffffff; /* Set the font color to white */
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 1.2em;
+        }
+
+        .button {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+
+            .button:hover {
+                background-color: #0056b3;
+            }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <div class="content">
+            <h1>Welcome to the UKZN Health Hive</h1>
+            <p>Manage your hospital operations efficiently and effectively with our state-of-the-art system. Make sure you have the relevant permissions before getting started. Please contact your clinical administrator to ensure that you have the correct permissions. </p>
 
-    <div>
-        <img src="https://drive.google.com/uc?export=view&id=1-5dg2Avz4VSiQShUq_5WRFmAlwhzp8dF">
+            <p>Get started by adding a Patient </p>
+            <a href="@Url.Action("Create", "Patients")" class="button">Record Patient Data</a>
+
+        </div>
     </div>
- 
 </body>
 </html>
